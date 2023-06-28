@@ -39,7 +39,7 @@ $$
 ... d'un capital placé à *intérêts composés*
 
 $$
-A = C(1+i)^n 
+\color{red}{A = C(1+i)^n}
 $$
 
 
@@ -48,7 +48,7 @@ $$
 <font size="6">
 
 $$
-A = C(1+i)^n  ~ ~ ~ ~ \mid \cdot (1+i)^{-n}  
+\color{red}{A = C(1+i)^n}  ~ ~ ~ ~ \mid \cdot (1+i)^{-n}  
 $$
 
 $$
@@ -63,7 +63,7 @@ $$
 <font size="6">
 
 $$
-A = C(1+i)^n  ~ ~ ~ ~ \mid \cdot C^{-1}
+\color{red}{A = C(1+i)^n}  ~ ~ ~ ~ \mid \cdot C^{-1}
 $$
 
 $$
@@ -86,7 +86,7 @@ $$
 <font size="6">
 
 $$
-A  = C(1+i)^n  ~ ~ ~ ~ \mid \cdot C^{-1}  \\
+\color{red}{A  = C(1+i)^n}  ~ ~ ~ ~ \mid \cdot C^{-1}  \\
 $$
 
 $$
