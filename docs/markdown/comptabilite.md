@@ -37,7 +37,7 @@ Note: This will only appear in the speaker notes window.
 
 ## Note de crédit
 
-<img src="https://raw.githubusercontent.com/econmediadb/slides/main/docs/media/images/20230628-note-de-credit.png"  width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/econmediadb/slides/main/docs/media/images/20230628-note-de-credit.png"  width="40%" height="40%">
 
 
 ## Comptabilisation des réductions de prix
