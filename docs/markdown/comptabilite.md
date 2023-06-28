@@ -35,6 +35,11 @@ Note: This will only appear in the speaker notes window.
 ![Schéma calcul](https://raw.githubusercontent.com/econmediadb/slides/main/docs/media/images/20230622-schema-calculs-reductions-des-prix.png)
 
 
+## Note de crédit
+
+<img src="https://raw.githubusercontent.com/econmediadb/slides/main/docs/media/images/20230628-note-de-credit.png"  width="50%" height="50%">
+
+
 ## Comptabilisation des réductions de prix
 
 ![Comptabilisation reduction prix](https://raw.githubusercontent.com/econmediadb/slides/main/docs/media/images/20230628-comptabilisation-reductions.png)
