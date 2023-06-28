@@ -17,10 +17,10 @@ Note: This will only appear in the speaker notes window.
 
 ## Schéma de calcul
 
-![Schéma calcul](../media/images/20230622-schema-calculs-reductions-des-prix.png)
+![Schéma calcul](https://raw.githubusercontent.com/econmediadb/slides/main/docs/media/images/20230622-schema-calculs-reductions-des-prix.png)
 
 
 ## Comptabilisation des réductions de prix
 
-![Comptabilisation reduction prix](../media/images/20230628-comptabilisation-reductions.png)
+![Comptabilisation reduction prix](https://raw.githubusercontent.com/econmediadb/slides/main/docs/media/images/20230628-comptabilisation-reductions.png)
 
