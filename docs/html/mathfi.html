@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="en">
 
+	<!-- Tarik Ocaktan + Luxembourg + June 2023 -->
+
 	<head>
 		<meta charset="utf-8">
 
-		<title>Mathömatiques financières</title>
+		<title>Mathématiques financières</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -12,15 +14,88 @@
 		<link rel="stylesheet" href="../dist/theme/night.css" id="theme">
 	</head>
 
+	<!-- These slides use MathJax -->
+
 	<body>
 
 		<div class="reveal">
 
 			<div class="slides">
 
+
 				<section>
 					<h2>Mathématiques financières</h2>
 					<p>Formules de base</p>
+				</section>
+
+				<section>
+					<h2>Table des matières</h2>
+					<ul>
+						<li> <font color="green"> Pourcentages </font>  </li>
+						<li>Intérêts simples</li>
+						<li>Intérêts composés </li>
+						<li>Indices simples</li>
+					</ul>
+				</section>
+
+
+
+				<section>
+					<h3>Majorations de prix</h3>
+					Le bénéfice ($B$) est la différence entre le prix de vente ($PV$) et le prix d'achat ($PA$) d'une marchandise:
+					\[\begin{aligned}
+					B = PV - PA
+					\end{aligned} \]
+				</section>				
+
+
+				<section>
+					<h3>Majorations de prix</h3>	
+					<object data="https://mermaid.ink/svg/pako:eNqNkD2KAkEQha9SVKyBG_bCgoPBJoKwi8m0QTFdauP0D2U1KOqBxmvMxWw13WArKurV9-C9C3bJMRrcCeU9_C4-bYQ68_b7nA2s1pAl5STqU4zcAxVYzTcwnX5B0zbjEMdh6zvevKnmJVwzF4XxrsLApyw-jANwvDazNqciHUelHcOxCPT8tPsX_PEnvK4wTjCwBPKu5rg8zSzqngNbNHV1JAeLNt7qHxVNP-fYoVEpPMGSHSkvPNX4Ac2W-mO9svOaZPku5tXP7QFKN2a4" width="500" height="500"> </object>
+				</section>
+
+
+				<section>
+					<h3>Majorations de prix</h3>
+					<p>Bénéfice exprimé en un pourcentage du prix d'achat</p>					
+					<object data="https://mermaid.ink/svg/pako:eNqVUEtqwzAQvcpjoKsmkG7dNuAk24IhoRsrC8UaJ6K2ZMYSuCQ5kM_hi1VOe4HOamZ4n5l3pcobpozOorsLDrtX5ZAqL2UadWN7FkSH0zS6aaxtxTCM4Ql9FDSMIj9iuVzj1tuzs7VldD4-GEWOt5OsZ_jLagWO4m-bcoN3DMc_i38wt2Xxmajz_IwBSUE5WlDL0mpr0vnXWVNRuHDLirLUGi1fipS7J5yOwe-_XUVZkMgLip3RgXdWp69bymrd9GnLxgYvH795PGK5_wCnz106" width="500" height="500"> </object>
+				</section>
+
+
+				<section>
+					<h3>Majorations de prix</h3>
+					<p>Bénéfice exprimé en un pourcentage du prix d'achat</p>					
+					\[\begin{aligned}
+					PA & = 100 \\
+					PA + B & = 100 + B 
+					\end{aligned} \]
+					comme $B = x$, nous pouvons déduire:
+					\[\begin{aligned}
+					PA + B = 100 + x 
+					\end{aligned} \]
+				</section>
+
+				<section>
+					<h3>Majorations de prix</h3>
+					\[\begin{aligned}
+					PA + B = 100 + x 
+					\end{aligned} \]
+					comme $PV = B + PA$, nous pouvons écrire:
+					\[\begin{aligned}
+					PV = 100 + x 
+					\end{aligned} \]
+				</section>
+
+
+
+				<section>
+					<h2>Table des matières</h2>
+					<ul>
+						<li>Pourcentages</li>
+						<li>Intérêts simples</li>
+						<li> <font color="green"> Intérêts composés </font> </li>
+						<li>Indices simples</li>
+					</ul>
 				</section>
 
 				<section>
@@ -36,7 +111,7 @@
 						<h3>Construction de la valeur acquise</h3>
 						Période 1:
 						\[\begin{aligned}
-						A_1 	&amp; = C + C \cdot i \\
+						A	 	&amp; = C + C \cdot i \\
 								&amp; = C(1 + i)
 						\end{aligned} \]
 					</section>
@@ -46,11 +121,22 @@
 						<h3>Construction de la valeur acquise</h3>
 						Période 2:
 						\[\begin{aligned}
-						A_2 	&amp; = C(1 + i) + [C(1 + i)] \cdot i  \\
+						A	 	&amp; = C(1 + i) + [C(1 + i)] \cdot i  \\
 								&amp; = C(1 + i) \cdot (1 + i) \\
 								&amp; = C(1 + i)^2
 						\end{aligned} \]
-					</section>				
+					</section>		
+					
+					<section>
+						<h3>Construction de la valeur acquise</h3>
+						Période $n$:
+						\[\begin{aligned}
+						A 	 	&amp; = C(1 + i)^{n-1} + [C(1 + i)^{n-1}] \cdot i  \\
+								&amp; = C(1 + i)^{n-1} \cdot (1 + i) \\
+								&amp; = C(1 + i)^{n}
+						\end{aligned} \]
+					</section>					
+
 				</section>
 
 				<section>
@@ -68,7 +154,7 @@
 					<h3>Détermination de la valeur actuelle ($C$)</h3>
 					
 					\[\begin{aligned}
-								A 	&amp; = C(1+i)^n \hspace{4cm} \Big| \cdot (1+i)^{-n}  \\
+					\color{red}{A} 	&amp; \color{red}{=} \color{red}{C(1+i)^n} \hspace{4cm} \Big| \cdot (1+i)^{-n}  \\
 								C	&amp; = A(1+i)^{-n} 
 					\end{aligned} \]
 				</section>				
@@ -77,7 +163,7 @@
 					<h3>Recherche du taux de placement ($i$)</h3>
 					
 					\[\begin{aligned}
-								A 		&amp; = C(1+i)^n 				 	 \hspace{4cm} \Big| \cdot C^{-1}  \\
+					\color{red}{A} 		&amp; \color{red}{=} \color{red}{C(1+i)^n} 				 	 \hspace{4cm} \Big| \cdot C^{-1}  \\
 								(1+i)^n	&amp; = \frac{A}{C} 			 	 \hspace{4cm} \Big| \sqrt[n]{\cdot} \\
 								1+i   &amp; = \sqrt[n]{\frac{A}{C}} 	 	 \hspace{4cm} \Big| -1 \\
 								i 		&amp; = \sqrt[n]{\frac{A}{C}} - 1
@@ -88,7 +174,7 @@
 					<h3>Recherche du temps de placement ($n$)</h3>
 					
 					\[\begin{aligned}
-								A 			&amp; = C(1+i)^n 				 				\hspace{4cm} \Big| \cdot C^{-1}  \\
+					\color{red}{A} 			&amp; \color{red}{=} \color{red}{C(1+i)^n} 				 				\hspace{4cm} \Big| \cdot C^{-1}  \\
 								(1+i)^n		&amp; = \frac{A}{C} 			 				\hspace{4cm} \Big| \log(\cdot) \\
 								n \cdot \log(1+i) &amp; = \log \frac{A}{C} 	 					\hspace{4cm} \Big| \div \log(1+i) \\
 								n 			&amp; = \frac{ \log \frac{A}{C} }{ \log(1+i) }
@@ -101,9 +187,9 @@
 					
 					En 3e vous n'avez pas encore eu d'introduction aux logaritmes. Regardez les vidéos (Khan Academy) suivants:
 					<ul>
-						<li> <a href="(https://www.youtube.com/watch?v=D9fovL5H7GI">Les logarithmes (7 min)</a>  </li>
-						<li> <a href="https://www.youtube.com/watch?v=69SO_oxK0vI">Les propriétés des logarithmes 1/2 (8 min)</a> </li>
-						<li> <a href="https://www.youtube.com/watch?v=FQlQVphVg_k">Les propriétés des logarithmes 2/2 (8 min)</a> </li> 
+						<li> <a href="(https://www.youtube.com/watch?v=D9fovL5H7GI">Les logarithmes</a> (7 min)  </li>
+						<li> <a href="https://www.youtube.com/watch?v=69SO_oxK0vI">Les propriétés des logarithmes 1/2</a> (8 min) </li>
+						<li> <a href="https://www.youtube.com/watch?v=FQlQVphVg_k">Les propriétés des logarithmes 2/2</a> (8 min) </li> 
 					</ul>	
 				</section>				
 
@@ -118,6 +204,32 @@
 
 				</section>				
 
+				<section>
+					<h3>Taux équivalents</h3>
+					
+					\[\begin{aligned}
+					1 + i_a &amp; = (1 + i_{trim})^4
+					\end{aligned} \]
+					où $i_a$ est le taux annuel et $i_{trim}$ est le taux trimestriel
+
+				</section>				
+
+				<section>
+					<h3>Taux équivalents</h3>
+					
+					\[\begin{aligned}
+					1 + i_a &amp; = (1 + i_m)^{12}
+					\end{aligned} \]
+					où $i_a$ est le taux annuel et $i_m$ est le taux mensuel
+
+				</section>
+
+				<section>
+					<h3>Sandbox</h3>
+					
+					<object data="https://mermaid.ink/svg/pako:eNqNkD2KAkEQha9SVKyBG_bCgoPBJoKwi8m0QTFdauP0D2U1KOqBxmvMxWw13WArKurV9-C9C3bJMRrcCeU9_C4-bYQ68_b7nA2s1pAl5STqU4zcAxVYzTcwnX5B0zbjEMdh6zvevKnmJVwzF4XxrsLApyw-jANwvDazNqciHUelHcOxCPT8tPsX_PEnvK4wTjCwBPKu5rg8zSzqngNbNHV1JAeLNt7qHxVNP-fYoVEpPMGSHSkvPNX4Ac2W-mO9svOaZPku5tXP7QFKN2a4" width="500" height="500"> </object>
+
+				</section>				
 
 			</div>
 
