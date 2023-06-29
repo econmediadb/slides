@@ -3,9 +3,7 @@
 
 ## Construction de la valeur acquise
 
-$$
-A = C + I_{\text{composé}} 
-$$
+`\[ A = C + I_{\text{composé}} \]`
 
 
 ## Construction de la valeur acquise
