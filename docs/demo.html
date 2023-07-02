@@ -1,5 +1,8 @@
 <!doctype html>
 <html lang="en">
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+
 
 	<head>
 		<meta charset="utf-8">
@@ -502,6 +505,51 @@ Reveal.on( 'customevent', function() {
 					<br>
 					<a href="https://www.radiofrance.fr/franceinter/podcasts/on-n-arrete-pas-l-eco/on-n-arrete-pas-l-eco-du-samedi-20-mai-2023-2703994">Source: France Inter</a> 
 				</section>
+
+				<section>
+					<section  data-background="#dddddd">
+						<h2>Using TikZJax</h2>
+						<div style="font-size: 40%;">
+						<p>In the <code>&lt;head&gt;</code> of your HTML, include : </p>						
+						<code class="html language-html">&lt;link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css"&gt;
+						<br>
+						&lt;script src="https://tikzjax.com/v1/tikzjax.js"&gt;&lt;/script&gt;
+						</code>
+						</div>
+						<pre data-id="code-animation"><code class="hljs latex" data-trim data-line-numbers>
+							\begin{tikzpicture}
+							\draw (0,0) circle (1in);
+							\end{tikzpicture}
+						</code></pre>
+						<script type="text/tikz">
+							\begin{tikzpicture}
+							\draw (0,0) circle (1in);
+							\end{tikzpicture}
+						</script>
+					</section>				
+
+					<section data-background="#dddddd">
+						<h4>Using TikZJax</h4>
+						<script type="text/tikz">
+							\begin{tikzpicture}
+							\draw (0,0) -- (4,0) -- (4,4) -- (0,4) -- (0,0);
+							\draw[red,thick,dashed] (2,2) circle (3cm);
+							\end{tikzpicture}
+						</script>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4>Using TikZJax</h4>
+						<script type="text/tikz">
+							\begin{tikzpicture}
+							\draw[step=1cm,gray,very thin] (-2,-2) grid (6,6);
+							\end{tikzpicture}
+						</script>
+					</section>
+
+				</section>					
+
+
 
 
 				<!-- Embed video into slide -->

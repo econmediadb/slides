@@ -38,3 +38,37 @@ graph LR;
 
 [MathJax](https://www.mathjax.org/) is supported by reveal.js and allows to include maths into the presentation.
 
+## 3. Tips
+
+### 3.1. Controlling the the size
+
+```html
+<div style="font-size: 133%;">
+<p>\begin{equation} \frac{\partial e_b}{\partial x^b} = &nbsp;&nbsp;\Gamma_{ab}^k &nbsp;e_k &nbsp; \end{equation}</p>
+</div>
+```
+
+
+### 3.2. Using TikZJax
+
+[TikZJax](https://tikzjax.com/)
+
+In the `<head>` of your HTML, include
+
+```html
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+```
+
+Then in the `<body>`, include TikZ code such as
+
+```html
+<script type="text/tikz">
+  \begin{tikzpicture}
+    \draw (0,0) circle (1in);
+  \end{tikzpicture}
+</script>
+````
+
+
+
