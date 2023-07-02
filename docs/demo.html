@@ -598,6 +598,24 @@ Reveal.on( 'customevent', function() {
 						</div>
 					</section>
 
+					<section data-background="#dddddd">
+						<h4>Using TikZJax</h4>
+						<style>
+							.container {
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								height: 100vh;
+							}
+						</style>
+						<div class="container">
+						<script type="text/tikz">
+							\tikz \draw[domain=0:360,smooth,variable=\t]
+  							plot ({sin(\t)},\t/360,{cos(\t)});
+						</script>
+						</div>
+					</section>
+
 				</section>					
 
 
