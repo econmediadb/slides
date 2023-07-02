@@ -540,11 +540,62 @@ Reveal.on( 'customevent', function() {
 
 					<section data-background="#dddddd">
 						<h4>Using TikZJax</h4>
+						<style>
+							.container {
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								height: 100vh;
+							}
+						</style>
+						<div class="container">
 						<script type="text/tikz">
 							\begin{tikzpicture}
-							\draw[step=1cm,gray,very thin] (-2,-2) grid (6,6);
+							\draw[step=1cm,gray,very thin] (-7,-7) grid (7,7);
 							\end{tikzpicture}
 						</script>
+						</div>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4>Using TikZJax</h4>
+						<style>
+							.container {
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								height: 100vh;
+							}
+						</style>
+						<div class="container">
+						<script type="text/tikz">
+							\begin{tikzpicture}
+							\draw[step=1cm,gray,very thin] (-7,-7) grid (7,7);
+							\draw (-2,-2) .. controls (0,0) .. (2,-2);
+							\end{tikzpicture}
+						</script>
+						</div>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4>Using TikZJax</h4>
+						<style>
+							.container {
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								height: 100vh;
+							}
+						</style>
+						<div class="container">
+						<script type="text/tikz">
+							\begin{tikzpicture}
+							\draw[step=1cm,gray,very thin] (-7,-7) grid (7,7);
+							\draw (-2,-2) .. controls (0,0) .. (2,-2);
+							\draw (-2,2) .. controls (-1,0) and (1,0) .. (2,2);
+							\end{tikzpicture}
+						</script>
+						</div>
 					</section>
 
 				</section>					
