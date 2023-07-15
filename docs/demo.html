@@ -718,7 +718,38 @@ Reveal.on( 'customevent', function() {
 					</script>
 				</section>				
 
+				<section  data-background="#dddddd">
+					<h2>Using TikZJax</h2>
+					<script type="text/tikz">				
+						\begin{tikzpicture}
+						% place nodes
+						\node[draw] at (0, 0)   (a) {};
+						\node[draw] at (5, 0)   (b) {};
 
+						\node[draw] at (0, -2)  (c)     {};
+						\node[draw] at (5, -2)  (d)     {};
+
+						% draw edges
+						\draw[] (a) -- (b)  node[near start, above] {};
+						\draw[] (c) -- (d)  node[near start, above] {};
+						\draw[] (a) -- (c)  node[near start, above] {};
+						\draw[] (b) -- (d)  node[near start, above] {};
+						\end{tikzpicture}				
+					</script>
+				</section>				
+
+				<section  data-background="#dddddd">
+					<h2>Using TikZJax</h2>
+					<script type="text/tikz">
+						\begin{tikzpicture}
+						\path node at ( 0,2) [shape=circle,draw] {}
+							node at ( 0,1) [shape=circle,draw] {}
+							node at ( 0,0) [shape=circle,draw] {}
+							node at ( 1,1) [shape=rectangle,draw] {}
+							node at (-1,1) [shape=rectangle,draw] {};
+						\end{tikzpicture}
+					</script>
+				</section>				
 
 			</div>
 
