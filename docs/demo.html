@@ -569,6 +569,23 @@ Reveal.on( 'customevent', function() {
 				</section>
 
 
+
+				<!-- Including external html file into another html file -->
+				<section>
+
+					<div id="externalContent"></div>
+					<script>
+					fetch('test/test-external-html-file.html')
+						.then(response => response.text())
+						.then(data => {
+						document.getElementById('externalContent').innerHTML = data;
+						});
+					</script>
+
+				</section>
+
+
+
 				<!-- Including Media into the slides -->
 
 
