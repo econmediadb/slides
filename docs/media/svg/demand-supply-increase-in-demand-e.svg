@@ -30,14 +30,14 @@
      showgrid="true"
      units="px"
      inkscape:zoom="0.79763328"
-     inkscape:cx="655.68979"
+     inkscape:cx="656.31665"
      inkscape:cy="356.6802"
-     inkscape:window-width="1384"
+     inkscape:window-width="1224"
      inkscape:window-height="804"
-     inkscape:window-x="58"
+     inkscape:window-x="217"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1"
      borderlayer="true">
@@ -301,6 +301,13 @@
      inkscape:label="Template"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       style="fill:#008000;stroke:#008000;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker24)"
+       d="M 952.12959,339.38373 C 904.47764,309.55579 856.82569,279.72785 809.17375,249.89992"
+       id="path23"
+       inkscape:path-effect="#path-effect23"
+       inkscape:original-d="M 952.12959,339.38373 C 904.47764,309.55579 856.82569,279.72785 809.17375,249.89992"
+       transform="translate(-60,-36)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
@@ -427,11 +434,6 @@
          y="148.88857"
          style="font-weight:bold;font-size:26.6667px;text-align:center;baseline-shift:baseline;text-anchor:middle;fill:#ff0000;fill-opacity:1"
          sodipodi:role="line">S</tspan></text>
-    <path
-       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:4;stroke-miterlimit:0;stroke-opacity:1"
-       d="M 349.17592,537.19373 973.66363,149.96658"
-       id="path2"
-       sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
@@ -466,13 +468,6 @@
        d="M 298.05065,590.28824 V 129.68718"
        id="path5" />
     <path
-       style="fill:#389853;stroke:#0000ff;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
-       d="M 589.79226,144.70739 C 717.32478,224.36954 844.85731,304.0317 972.38984,383.69385"
-       id="path16"
-       inkscape:path-effect="#path-effect16"
-       inkscape:original-d="M 589.79226,144.70739 C 717.32478,224.36955 844.85731,304.0317 972.38984,383.69385"
-       transform="translate(30,-12)" />
-    <path
        style="fill:#389853;stroke:#000000;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:4, 12;stroke-opacity:1;stroke-dashoffset:0"
        d="m 807.48086,249.31759 c -170.41371,0 -340.82742,0 -511.24114,0"
        id="path17"
@@ -499,24 +494,30 @@
        inkscape:original-d="m 296.09489,343.09408 c 0,-31.5566 0,-63.1132 0,-94.6698"
        transform="translate(2,-44)" />
     <path
-       style="fill:#008000;stroke:#008000;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:0, 44;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker22)"
+       style="fill:#008000;stroke:#008000;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker22)"
        d="m 659.12467,343.20316 c 49.6526,-30.9192 99.30521,-61.83841 148.95781,-92.75761"
        id="path21"
        inkscape:path-effect="#path-effect21"
        inkscape:original-d="m 659.12467,343.20316 c 49.6526,-30.9192 99.30521,-61.83841 148.95781,-92.75761"
        transform="translate(68,-40)" />
-    <path
-       style="fill:#008000;stroke:#008000;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:0, 44;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker24)"
-       d="M 952.12959,339.38373 C 904.47764,309.55579 856.82569,279.72785 809.17375,249.89992"
-       id="path23"
-       inkscape:path-effect="#path-effect23"
-       inkscape:original-d="M 952.12959,339.38373 C 904.47764,309.55579 856.82569,279.72785 809.17375,249.89992"
-       transform="translate(-60,-36)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Layer 1" />
+     inkscape:label="Layer 1">
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:4;stroke-miterlimit:0;stroke-opacity:1"
+       d="M 349.17592,537.19373 973.66363,149.96658"
+       id="path2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#389853;stroke:#0000ff;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+       d="M 589.79226,144.70739 C 717.32478,224.36954 844.85731,304.0317 972.38984,383.69385"
+       id="path16"
+       inkscape:path-effect="#path-effect16"
+       inkscape:original-d="M 589.79226,144.70739 C 717.32478,224.36955 844.85731,304.0317 972.38984,383.69385"
+       transform="translate(30,-12)" />
+  </g>
   <metadata
      id="metadata2865">
     <rdf:RDF>
