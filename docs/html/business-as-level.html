@@ -1137,7 +1137,7 @@
 					<section data-background="#dddddd">
 						<h4>Chapter 31: Costs</h4>
 						<ul>
-							<li>contributioon costing</li>
+							<li>contribution costing</li>
 							<li>average costs</li>
 							<li>marginal costs</li>
 							<li>cost-plus pricing</li>
@@ -1476,6 +1476,409 @@
 					</section>
 
 
+					<!-- Multiple Choice Questions : margin of safety-->
+					<section>
+						<p>What does the 'margin of safety' in budgeting refer to?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="margin1" name="margin_quiz" value="1">
+							<label for="margin1">A. The extra funds allocated for unexpected expenses.</label><br>
+					
+							<input type="radio" id="margin2" name="margin_quiz" value="2">
+							<label for="margin2">B. The difference between the actual sales and the break-even sales.</label><br>
+					
+							<input type="radio" id="margin3" name="margin_quiz" value="3">
+							<label for="margin3">C. The percentage by which a company's actual profit exceeds its planned profit.</label><br>
+					
+							<input type="radio" id="margin4" name="margin_quiz" value="4">
+							<label for="margin4">D. The allowable deviation in a budget before triggering a review.</label><br>
+						</div>
+						<button onclick="checkMarginAnswer()">Submit Answer</button>
+						<p id="margin_feedback"></p>
+					</section>
+					
+					<script>
+					function checkMarginAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="margin_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("margin_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+					<!-- Multiple Choice Questions : contribution per unit-->
+					<section>
+						<p>How is 'contribution per unit' calculated in cost accounting?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="contribution1" name="contribution_quiz" value="1">
+							<label for="contribution1">A. Total Sales Revenue divided by the Number of Units Sold.</label><br>
+					
+							<input type="radio" id="contribution2" name="contribution_quiz" value="2">
+							<label for="contribution2">B. Total Fixed Costs divided by the Number of Units Sold.</label><br>
+					
+							<input type="radio" id="contribution3" name="contribution_quiz" value="3">
+							<label for="contribution3">C. Selling Price per Unit minus Variable Cost per Unit.</label><br>
+					
+							<input type="radio" id="contribution4" name="contribution_quiz" value="4">
+							<label for="contribution4">D. Total Variable Costs divided by the Number of Units Sold.</label><br>
+						</div>
+						<button onclick="checkContributionAnswer()">Submit Answer</button>
+						<p id="contribution_feedback"></p>
+					</section>
+					
+					<script>
+					function checkContributionAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="contribution_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("contribution_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+
+					<!-- Multiple Choice Questions : break-even analysis-->
+					<section>
+						<p>What does <em>break-even analysis</em> primarily determine?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="breakEven1" name="breakEven_quiz" value="1">
+							<label for="breakEven1">A. The total variable costs of production.</label><br>
+					
+							<input type="radio" id="breakEven2" name="breakEven_quiz" value="2">
+							<label for="breakEven2">B. The point at which total revenue equals total costs, resulting in no profit or loss.</label><br>
+					
+							<input type="radio" id="breakEven3" name="breakEven_quiz" value="3">
+							<label for="breakEven3">C. The maximum capacity of production for a business.</label><br>
+					
+							<input type="radio" id="breakEven4" name="breakEven_quiz" value="4">
+							<label for="breakEven4">D. The total fixed costs of a business.</label><br>
+						</div>
+						<button onclick="checkBreakEvenAnswer()">Submit Answer</button>
+						<p id="breakEven_feedback"></p>
+					</section>
+					
+					<script>
+					function checkBreakEvenAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="breakEven_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("breakEven_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : marginal cost-->
+					<section>
+						<p>What does 'marginal cost' refer to in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="marginal1" name="marginal_quiz" value="1">
+							<label for="marginal1">A. The cost of producing one additional unit of a product.</label><br>
+					
+							<input type="radio" id="marginal2" name="marginal_quiz" value="2">
+							<label for="marginal2">B. The total cost of all units produced divided by the number of units.</label><br>
+					
+							<input type="radio" id="marginal3" name="marginal_quiz" value="3">
+							<label for="marginal3">C. The fixed costs that a company incurs regardless of production levels.</label><br>
+					
+							<input type="radio" id="marginal4" name="marginal_quiz" value="4">
+							<label for="marginal4">D. The variable cost per unit of production.</label><br>
+						</div>
+						<button onclick="checkMarginalAnswer()">Submit Answer</button>
+						<p id="marginal_feedback"></p>
+					</section>
+					
+					<script>
+					function checkMarginalAnswer() {
+						var correctAnswer = "1"; // Option A is the correct answer
+						var selectedOption = document.querySelector('input[name="marginal_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("marginal_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+
+					<!-- Multiple Choice Questions : Contribution Costing-->
+					<section>
+						<p>What is the primary focus of <em>contribution costing</em> in management accounting?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="contributionCosting1" name="contributionCosting_quiz" value="1">
+							<label for="contributionCosting1">A. Calculating the total fixed costs of production.</label><br>
+					
+							<input type="radio" id="contributionCosting2" name="contributionCosting_quiz" value="2">
+							<label for="contributionCosting2">B. Determining the contribution of each unit sold towards fixed costs and profits.</label><br>
+					
+							<input type="radio" id="contributionCosting3" name="contributionCosting_quiz" value="3">
+							<label for="contributionCosting3">C. Assessing the profitability of different product lines.</label><br>
+					
+							<input type="radio" id="contributionCosting4" name="contributionCosting_quiz" value="4">
+							<label for="contributionCosting4">D. Estimating the break-even point of production.</label><br>
+						</div>
+						<button onclick="checkContributionCostingAnswer()">Submit Answer</button>
+						<p id="contributionCosting_feedback"></p>
+					</section>
+					
+					<script>
+					function checkContributionCostingAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="contributionCosting_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("contributionCosting_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+					<!-- Multiple Choice Questions : full costing-->
+					<section>
+						<p>What is a key characteristic of <em>full costing</em>?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="fullCosting1" name="fullCosting_quiz" value="1">
+							<label for="fullCosting1">A. It only considers direct costs associated with production.</label><br>
+					
+							<input type="radio" id="fullCosting2" name="fullCosting_quiz" value="2">
+							<label for="fullCosting2">B. It allocates all fixed and variable costs to each unit of product.</label><br>
+					
+							<input type="radio" id="fullCosting3" name="fullCosting_quiz" value="3">
+							<label for="fullCosting3">C. It focuses exclusively on variable costs in cost calculation.</label><br>
+					
+							<input type="radio" id="fullCosting4" name="fullCosting_quiz" value="4">
+							<label for="fullCosting4">D. It is primarily used for short-term decision making.</label><br>
+						</div>
+						<button onclick="checkFullCostingAnswer()">Submit Answer</button>
+						<p id="fullCosting_feedback"></p>
+					</section>
+					
+					<script>
+					function checkFullCostingAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="fullCosting_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("fullCosting_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+
+					<!-- Multiple Choice Questions : average cost-->
+					<section>
+						<p>What does 'average cost' represent in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="averageCost1" name="averageCost_quiz" value="1">
+							<label for="averageCost1">A. The total cost of producing a single unit of product.</label><br>
+					
+							<input type="radio" id="averageCost2" name="averageCost_quiz" value="2">
+							<label for="averageCost2">B. The cost of producing the next unit of product.</label><br>
+					
+							<input type="radio" id="averageCost3" name="averageCost_quiz" value="3">
+							<label for="averageCost3">C. The sum of fixed and variable costs divided by the total number of units produced.</label><br>
+					
+							<input type="radio" id="averageCost4" name="averageCost_quiz" value="4">
+							<label for="averageCost4">D. The average amount of profit earned per unit of product sold.</label><br>
+						</div>
+						<button onclick="checkAverageCostAnswer()">Submit Answer</button>
+						<p id="averageCost_feedback"></p>
+					</section>
+					
+					<script>
+					function checkAverageCostAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="averageCost_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("averageCost_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+
+					<!-- Multiple Choice Questions : profit centre-->
+					<section>
+						<p>What is a 'profit centre' in a business organization?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="profitCentre1" name="profitCentre_quiz" value="1">
+							<label for="profitCentre1">A. A department that focuses exclusively on cost reduction.</label><br>
+					
+							<input type="radio" id="profitCentre2" name="profitCentre_quiz" value="2">
+							<label for="profitCentre2">B. A unit within the organization that is responsible for generating its own revenue and profits.</label><br>
+					
+							<input type="radio" id="profitCentre3" name="profitCentre_quiz" value="3">
+							<label for="profitCentre3">C. The finance department that handles all profit-related reporting.</label><br>
+					
+							<input type="radio" id="profitCentre4" name="profitCentre_quiz" value="4">
+							<label for="profitCentre4">D. A team responsible for investments and financial growth decisions.</label><br>
+						</div>
+						<button onclick="checkProfitCentreAnswer()">Submit Answer</button>
+						<p id="profitCentre_feedback"></p>
+					</section>
+					
+					<script>
+					function checkProfitCentreAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="profitCentre_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("profitCentre_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+					<!-- Multiple Choice Questions : cost centre-->
+					<section>
+						<p>What is a 'cost centre' in a business organization?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="costCentre1" name="costCentre_quiz" value="1">
+							<label for="costCentre1">A. A department primarily responsible for generating revenue.</label><br>
+					
+							<input type="radio" id="costCentre2" name="costCentre_quiz" value="2">
+							<label for="costCentre2">B. A unit within the organization that is responsible for managing and controlling costs.</label><br>
+					
+							<input type="radio" id="costCentre3" name="costCentre_quiz" value="3">
+							<label for="costCentre3">C. The financial department that calculates the overall profitability of the company.</label><br>
+					
+							<input type="radio" id="costCentre4" name="costCentre_quiz" value="4">
+							<label for="costCentre4">D. A team responsible for investment decisions in the organization.</label><br>
+						</div>
+						<button onclick="checkCostCentreAnswer()">Submit Answer</button>
+						<p id="costCentre_feedback"></p>
+					</section>
+					
+					<script>
+					function checkCostCentreAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="costCentre_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("costCentre_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+					<!-- Multiple Choice Questions : direct and indirect costs -->
+					<section>
+						<p>What is the main difference between <em>direct and indirect costs</em> in business?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="costs1" name="costs_quiz" value="1">
+							<label for="costs1">A. Direct costs are always variable, while indirect costs are fixed.</label><br>
+					
+							<input type="radio" id="costs2" name="costs_quiz" value="2">
+							<label for="costs2">B. Direct costs can be directly attributed to the production of goods, while indirect costs cannot.</label><br>
+					
+							<input type="radio" id="costs3" name="costs_quiz" value="3">
+							<label for="costs3">C. Indirect costs are related to specific projects, while direct costs are general to the business.</label><br>
+					
+							<input type="radio" id="costs4" name="costs_quiz" value="4">
+							<label for="costs4">D. Direct costs are incurred during the sales process, while indirect costs are part of production.</label><br>
+						</div>
+						<button onclick="checkCostsAnswer()">Submit Answer</button>
+						<p id="costs_feedback"></p>
+					</section>
+					
+					<script>
+					function checkCostsAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="costs_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("costs_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+					<!-- Multiple Choice Questions : variable, fixed and total cost -->
+					<section>
+						<p>How are <em>fixed costs</em>, <em>variable costs</em>, and <em>total costs</em> related in business?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="costTypes1" name="costTypes_quiz" value="1">
+							<label for="costTypes1">A. Fixed costs vary with production levels, while variable costs are constant regardless of production volume.</label><br>
+					
+							<input type="radio" id="costTypes2" name="costTypes_quiz" value="2">
+							<label for="costTypes2">B. Variable costs change with production levels, and total cost is the sum of fixed and variable costs.</label><br>
+					
+							<input type="radio" id="costTypes3" name="costTypes_quiz" value="3">
+							<label for="costTypes3">C. Total cost is determined by the volume of production, independent of fixed and variable costs.</label><br>
+					
+							<input type="radio" id="costTypes4" name="costTypes_quiz" value="4">
+							<label for="costTypes4">D. Fixed costs are the only component that determines the total cost in a business.</label><br>
+						</div>
+						<button onclick="checkCostTypesAnswer()">Submit Answer</button>
+						<p id="costTypes_feedback"></p>
+					</section>
+					
+					<script>
+					function checkCostTypesAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="costTypes_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("costTypes_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+
+
 				</section>
 
 
@@ -1495,7 +1898,7 @@
 					<section data-background="#dddddd">
 						<h4>Chapter 32: Budgets</h4>
 						<ul>
-							<li>budgetinging</li>
+							<li>budgeting</li>
 							<li>budget holder</li>
 							<li>variance analysis</li>
 							<li>delegated budgets</li>
@@ -1506,6 +1909,108 @@
 							<li>adverse variance</li>
 						</ul>
 					</section>					
+
+					<section data-background="#dddddd">
+						<h4> budgeting </h4>
+						<ul>
+							<li> planning future activities ... </li>
+							<li> ... by establishing ... </li>
+							<li> ... <em>performance targets</em> ... </li>
+							<li> ... especially financial ones </li>
+						</ul>
+					</section>					
+
+
+					<section data-background="#dddddd">
+						<h4> budget holder </h4>
+						<ul>
+							<li> the <em>individual</em> ... </li>
+							<li> ... responsible for ... </li>
+							<li> ... initial <em>setting</em> and <em>achievement</em> ... </li>
+							<li> ... of a budget </li>
+						</ul>
+					</section>					
+
+
+					<section data-background="#dddddd">
+						<h4> variance analysis </h4>
+						<ul>
+							<li> calculation of ... </li>
+							<li> ... the <em>differences</em> between ... </li>
+							<li> ... <em>budgets</em> and <em>actual</em> figures ... </li>
+							<li> ... and analysis of the <em>reasons</em> ... </li>
+							<li> ... for such differences </li>
+						</ul>
+					</section>					
+
+
+					<section data-background="#dddddd">
+						<h4> delegated budgets </h4>
+						<ul>
+							<li> budgets for which ... </li>
+							<li> ... junior managers ... </li>
+							<li> ... have been given ... </li>
+							<li> ... some authority ... </li>
+							<li> ... for setting and achieving</li>
+						</ul>
+					</section>					
+
+
+					<section data-background="#dddddd">
+						<h4> incremental budgeting </h4>
+						<ul>
+							<li> uses last year's budget ... </li>
+							<li> ... as a basis ... </li>
+							<li> ... and an adjustment is made ... </li>
+							<li> ... for the coming year </li>
+						</ul>
+					</section>					
+
+
+					<section data-background="#dddddd">
+						<h4> zero budgeting </h4>
+						<ul>
+							<li> sets budgets to zero ... </li>
+							<li> ... each year and ... </li>
+							<li> ... budget holders ... </li>
+							<li> ... have to argue their case ... </li>
+							<li> ... for target levels ...</li>
+							<li> ... and to receive any finance </li>
+						</ul>
+					</section>					
+
+
+					<section data-background="#dddddd">
+						<h4> favourable variance </h4>
+						<ul>
+							<li> a change from the budget ... </li>
+							<li> ... that leads to  </li>
+							<li> ... higher than planned profit </li>
+						</ul>
+					</section>					
+
+
+					<section data-background="#dddddd">
+						<h4> flexible budgeting </h4>
+						<ul>
+							<li> cost budgets ... </li>
+							<li> ... for each expense ... </li>
+							<li> ... are allowed to vary ... </li>
+							<li> ... if sales or output ... </li>
+							<li> ... vary from budgeted levels </li>
+						</ul>
+					</section>					
+
+
+					<section data-background="#dddddd">
+						<h4> adverse variance </h4>
+						<ul>
+							<li> a change from ... </li>
+							<li> ... the budget that leads ... </li>
+							<li> ... to lower than planned profit </li>
+						</ul>
+					</section>					
+
 
 					<section data-background="#dddddd">
 						<h4> Collaborative reading </h4>
@@ -1628,15 +2133,194 @@
 					  
 					  <section data-background="#dddddd">
 						<h4> general tips </h4>
-						<p>If you have case studies, here is what you could do ...</p>
+						<p>If you have case studies, here is what you could do: </p>
 						<ol>
-							<li> Research the background of the business or the brand. </li>
+							<li> Do some <em>background research</em> of the business or the brand. </li>
 							<li> Identify the relevant <em>theory</em> by finding the chapter, section, ... in your textbook.</li>
 							<li> Adapt the elements from the <em>theory</em> to your case study: What is the source of the problem that is discussed in the case study? </li>
 							<li> Propose a solution based on the issue that you have identified in the previous step.</li>
 						</ol>
 					</section>					
 
+
+					<!-- Multiple Choice Questions : zero-based budgeting-->
+					<section>
+						<p>Which of the following is true about <em>zero-based budgeting</em>?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="option1" name="budget_quiz" value="1">
+							<label for="option1">A. It starts from a "zero base" and every function is analyzed for its needs and costs.</label><br>
+					
+							<input type="radio" id="option2" name="budget_quiz" value="2">
+							<label for="option2">B. It involves adjusting the previous year's budget by a fixed percentage.</label><br>
+					
+							<input type="radio" id="option3" name="budget_quiz" value="3">
+							<label for="option3">C. It focuses only on variances between actual and budgeted figures.</label><br>
+					
+							<input type="radio" id="option4" name="budget_quiz" value="4">
+							<label for="option4">D. It is mainly used for capital budgeting.</label><br>
+						</div>
+						<button onclick="checkAnswer()">Submit Answer</button>
+						<p id="feedback"></p>
+					</section>
+					
+					<script>
+					function checkAnswer() {
+						var correctAnswer = "1"; // Assuming option A is the correct answer
+						var selectedOption = document.querySelector('input[name="budget_quiz"]:checked').value;
+						var feedbackText = document.getElementById("feedback");
+					
+						if (selectedOption == correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						}
+					}
+					</script>
+					
+					<!-- Multiple Choice Questions : variance analysis -->
+					<section>
+						<p>What is the primary purpose of <em>variance analysis</em> in budgeting?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="option1" name="variance_quiz" value="1">
+							<label for="option1">A. To determine the most cost-effective suppliers for a business.</label><br>
+					
+							<input type="radio" id="option2" name="variance_quiz" value="2">
+							<label for="option2">B. To compare actual financial outcomes with budgeted figures and analyze the reasons for any differences.</label><br>
+					
+							<input type="radio" id="option3" name="variance_quiz" value="3">
+							<label for="option3">C. To calculate the total budget required for the next financial year.</label><br>
+					
+							<input type="radio" id="option4" name="variance_quiz" value="4">
+							<label for="option4">D. To assess the overall financial health of a company.</label><br>
+						</div>
+						<button onclick="checkVarianceAnswer()">Submit Answer</button>
+						<p id="variance_feedback"></p>
+					</section>
+					
+					<script>
+					function checkVarianceAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="variance_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("variance_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+					<!-- Multiple Choice Questions : delegated budgets -->
+					<section>
+						<p>What is the main advantage of using <em>delegated budgets</em> within an organization?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="delegated1" name="delegated_quiz" value="1">
+							<label for="delegated1">A. They ensure centralized control over all financial decisions.</label><br>
+					
+							<input type="radio" id="delegated2" name="delegated_quiz" value="2">
+							<label for="delegated2">B. They increase motivation and accountability among individual managers.</label><br>
+					
+							<input type="radio" id="delegated3" name="delegated_quiz" value="3">
+							<label for="delegated3">C. They simplify the budgeting process, requiring less time and fewer resources.</label><br>
+					
+							<input type="radio" id="delegated4" name="delegated_quiz" value="4">
+							<label for="delegated4">D. They provide more accurate financial forecasting.</label><br>
+						</div>
+						<button onclick="checkDelegatedAnswer()">Submit Answer</button>
+						<p id="delegated_feedback"></p>
+					</section>
+					
+					<script>
+					function checkDelegatedAnswer() {
+						var correctAnswer = "2"; // Assuming option B is the correct answer
+						var selectedOption = document.querySelector('input[name="delegated_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("delegated_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+					<!-- Multiple Choice Questions : flexible budgeting -->
+					<section>
+						<p>What is a key feature of <em>flexible budgeting</em>?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="flexible1" name="flexible_quiz" value="1">
+							<label for="flexible1">A. It remains unchanged throughout the fiscal year.</label><br>
+					
+							<input type="radio" id="flexible2" name="flexible_quiz" value="2">
+							<label for="flexible2">B. It is based on fixed performance targets.</label><br>
+					
+							<input type="radio" id="flexible3" name="flexible_quiz" value="3">
+							<label for="flexible3">C. It adjusts to changes in activity or volume levels.</label><br>
+					
+							<input type="radio" id="flexible4" name="flexible_quiz" value="4">
+							<label for="flexible4">D. It is used only for capital expenditure planning.</label><br>
+						</div>
+						<button onclick="checkFlexibleAnswer()">Submit Answer</button>
+						<p id="flexible_feedback"></p>
+					</section>
+					
+					<script>
+					function checkFlexibleAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="flexible_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("flexible_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+					<!-- Multiple Choice Questions : incremental budgeting -->
+					<section>
+						<p>What is a characteristic feature of <em>incremental budgeting</em>?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="incremental1" name="incremental_quiz" value="1">
+							<label for="incremental1">A. It involves starting the budget process from a zero base each year.</label><br>
+					
+							<input type="radio" id="incremental2" name="incremental_quiz" value="2">
+							<label for="incremental2">B. It adjusts the current budget based on actual performance in the previous period.</label><br>
+					
+							<input type="radio" id="incremental3" name="incremental_quiz" value="3">
+							<label for="incremental3">C. It bases the new budget on the previous period's budget with incremental adjustments.</label><br>
+					
+							<input type="radio" id="incremental4" name="incremental_quiz" value="4">
+							<label for="incremental4">D. It requires a complete reassessment of all budget items each year.</label><br>
+						</div>
+						<button onclick="checkIncrementalAnswer()">Submit Answer</button>
+						<p id="incremental_feedback"></p>
+					</section>
+					
+					<script>
+					function checkIncrementalAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="incremental_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("incremental_feedback");
+					
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
 
 				</section>
 
