@@ -2268,6 +2268,116 @@
 					</script>
 
 
+					<!-- Multiple Choice Questions : Merit Goods -->
+					<section>
+						<p>What characterizes <em>merit goods</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="meritGoods1" name="meritGoods_quiz" value="1">
+							<label for="meritGoods1">A. Goods that provide additional benefits to society, leading to under-consumption if left to the market.</label><br>
+
+							<input type="radio" id="meritGoods2" name="meritGoods_quiz" value="2">
+							<label for="meritGoods2">B. Products whose consumption is solely based on individual preference and purchasing power.</label><br>
+
+							<input type="radio" id="meritGoods3" name="meritGoods_quiz" value="3">
+							<label for="meritGoods3">C. Goods that are over-consumed in the market due to their addictive nature or negative externalities.</label><br>
+
+							<input type="radio" id="meritGoods4" name="meritGoods_quiz" value="4">
+							<label for="meritGoods4">D. Products typically produced by the government as they are not profitable for private firms.</label><br>
+						</div>
+						<button onclick="checkMeritGoodsAnswer()">Submit Answer</button>
+						<p id="meritGoods_feedback"></p>
+					</section>
+
+					<script>
+					function checkMeritGoodsAnswer() {
+						var correctAnswer = "1"; // Option A is the correct answer
+						var selectedOption = document.querySelector('input[name="meritGoods_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("meritGoods_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Private Benefits -->
+					<section>
+						<p>What are <em>private benefits</em> in the context of economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="privateBenefits1" name="privateBenefits_quiz" value="1">
+							<label for="privateBenefits1">A. Benefits that accrue to the government as a result of tax revenues from businesses.</label><br>
+
+							<input type="radio" id="privateBenefits2" name="privateBenefits_quiz" value="2">
+							<label for="privateBenefits2">B. Benefits experienced by third parties when an individual or business engages in economic activities.</label><br>
+
+							<input type="radio" id="privateBenefits3" name="privateBenefits_quiz" value="3">
+							<label for="privateBenefits3">C. Advantages that individuals or businesses gain directly as a result of their economic activities.</label><br>
+
+							<input type="radio" id="privateBenefits4" name="privateBenefits_quiz" value="4">
+							<label for="privateBenefits4">D. Benefits derived from public goods and services provided by the government.</label><br>
+						</div>
+						<button onclick="checkPrivateBenefitsAnswer()">Submit Answer</button>
+						<p id="privateBenefits_feedback"></p>
+					</section>
+
+					<script>
+					function checkPrivateBenefitsAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="privateBenefits_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("privateBenefits_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Social Costs -->
+					<section>
+						<p>What best describes <em>social costs</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="socialCosts1" name="socialCosts_quiz" value="1">
+							<label for="socialCosts1">A. Costs that are borne by the government in providing public goods and services.</label><br>
+
+							<input type="radio" id="socialCosts2" name="socialCosts_quiz" value="2">
+							<label for="socialCosts2">B. Costs incurred by businesses during the production of goods and services.</label><br>
+
+							<input type="radio" id="socialCosts3" name="socialCosts_quiz" value="3">
+							<label for="socialCosts3">C. Costs associated with private transactions between individuals or businesses.</label><br>
+
+							<input type="radio" id="socialCosts4" name="socialCosts_quiz" value="4">
+							<label for="socialCosts4">D. The total cost to society, including both private costs and external costs.</label><br>
+						</div>
+						<button onclick="checkSocialCostsAnswer()">Submit Answer</button>
+						<p id="socialCosts_feedback"></p>
+					</section>
+
+					<script>
+					function checkSocialCostsAnswer() {
+						var correctAnswer = "4"; // Option D is the correct answer
+						var selectedOption = document.querySelector('input[name="socialCosts_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("socialCosts_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
 
 
 				</section>
