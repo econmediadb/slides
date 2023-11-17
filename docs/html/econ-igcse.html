@@ -2107,8 +2107,175 @@
 
 
 				</section>
+
 				
+
+
+				<!-- Chapter 1-14: MCQ -->
+				<section>
+					
+					<section>
+						<h4>Multiple Choice Questions</h4>
+					</section>
+
+					<!-- Multiple Choice Questions : Demerit Goods -->
+					<section>
+						<p>Which of the following best describes <em>demerit goods</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="demeritGoods1" name="demeritGoods_quiz" value="1">
+							<label for="demeritGoods1">A. Goods that are beneficial to society and are often under-consumed.</label><br>
+
+							<input type="radio" id="demeritGoods2" name="demeritGoods_quiz" value="2">
+							<label for="demeritGoods2">B. Goods that have a negative impact on the consumer and society, often leading to over-consumption.</label><br>
+
+							<input type="radio" id="demeritGoods3" name="demeritGoods_quiz" value="3">
+							<label for="demeritGoods3">C. Luxury goods that are only accessible to the wealthy part of the population.</label><br>
+
+							<input type="radio" id="demeritGoods4" name="demeritGoods_quiz" value="4">
+							<label for="demeritGoods4">D. Goods where the production and consumption have no external effects on third parties.</label><br>
+						</div>
+						<button onclick="checkDemeritGoodsAnswer()">Submit Answer</button>
+						<p id="demeritGoods_feedback"></p>
+					</section>
+
+					<script>
+					function checkDemeritGoodsAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="demeritGoods_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("demeritGoods_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+
+					<!-- Multiple Choice Questions : Externalities -->
+					<section>
+						<p>Which of the following statements accurately describes <em>externalities</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="externalities1" name="externalities_quiz" value="1">
+							<label for="externalities1">A. Externalities are financial benefits or costs that affect only the individuals directly involved in a transaction.</label><br>
+
+							<input type="radio" id="externalities2" name="externalities_quiz" value="2">
+							<label for="externalities2">B. Externalities occur when a product is priced according to its marginal cost of production.</label><br>
+
+							<input type="radio" id="externalities3" name="externalities_quiz" value="3">
+							<label for="externalities3">C. Externalities are benefits or costs that impact third parties who are not part of an economic transaction.</label><br>
+
+							<input type="radio" id="externalities4" name="externalities_quiz" value="4">
+							<label for="externalities4">D. Externalities are the costs incurred by a business in the production process.</label><br>
+						</div>
+						<button onclick="checkExternalitiesAnswer()">Submit Answer</button>
+						<p id="externalities_feedback"></p>
+					</section>
+
+					<script>
+					function checkExternalitiesAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="externalities_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("externalities_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+
+					<!-- Multiple Choice Questions : Public Goods -->
+					<section>
+						<p>What is a defining feature of <em>public goods</em>?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="publicGoods1" name="publicGoods_quiz" value="1">
+							<label for="publicGoods1">A. They are always provided free of charge and are financed through general taxation.</label><br>
+
+							<input type="radio" id="publicGoods2" name="publicGoods_quiz" value="2">
+							<label for="publicGoods2">B. They are excludable and rival in consumption, meaning one person's use diminishes another's.</label><br>
+
+							<input type="radio" id="publicGoods3" name="publicGoods_quiz" value="3">
+							<label for="publicGoods3">C. They are non-excludable and non-rival in consumption, so usage by one person does not reduce availability to others.</label><br>
+
+							<input type="radio" id="publicGoods4" name="publicGoods_quiz" value="4">
+							<label for="publicGoods4">D. They are goods provided by private sector entities, typically characterized by competitive pricing.</label><br>
+						</div>
+						<button onclick="checkPublicGoodsAnswer()">Submit Answer</button>
+						<p id="publicGoods_feedback"></p>
+					</section>
+
+					<script>
+					function checkPublicGoodsAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="publicGoods_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("publicGoods_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Market Failure -->
+					<section>
+						<p>Which of the following best describes the concept of <em>market failure</em>?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="marketFailure1" name="marketFailure_quiz" value="1">
+							<label for="marketFailure1">A. It occurs when resources are distributed unevenly, leading to wealth disparities.</label><br>
+
+							<input type="radio" id="marketFailure2" name="marketFailure_quiz" value="2">
+							<label for="marketFailure2">B. Market failure happens when government intervention in the economy causes inefficiencies.</label><br>
+
+							<input type="radio" id="marketFailure3" name="marketFailure_quiz" value="3">
+							<label for="marketFailure3">C. It is a situation where the allocation of goods and services is not efficient, often leading to a net social welfare loss.</label><br>
+
+							<input type="radio" id="marketFailure4" name="marketFailure_quiz" value="4">
+							<label for="marketFailure4">D. Market failure refers to the complete collapse of a financial market, leading to an economic crisis.</label><br>
+						</div>
+						<button onclick="checkMarketFailureAnswer()">Submit Answer</button>
+						<p id="marketFailure_feedback"></p>
+					</section>
+
+					<script>
+					function checkMarketFailureAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="marketFailure_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("marketFailure_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+
+
+				</section>
 				
+
+				
+
+
 
 
 				<!-- Chapter 15: Mixed economic system -->
