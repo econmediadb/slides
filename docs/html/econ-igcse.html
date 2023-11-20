@@ -1869,6 +1869,240 @@
 				
 				
 
+				<!-- Chapter 13: MCQ -->
+				<section>
+					
+					<section>
+						<h4>Multiple Choice Questions</h4>
+					</section>
+
+					<!-- Multiple Choice Questions : Economic Systems -->
+					<section>
+						<p>What describes best an <em>economic system</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="economicSystem1" name="economicSystem_quiz" value="1">
+							<label for="economicSystem1">A. The method by which a government distributes resources and trade goods in a country.</label><br>
+
+							<input type="radio" id="economicSystem2" name="economicSystem_quiz" value="2">
+							<label for="economicSystem2">B. The structured way in which an economy organizes the production, distribution, and consumption of goods and services.</label><br>
+
+							<input type="radio" id="economicSystem3" name="economicSystem_quiz" value="3">
+							<label for="economicSystem3">C. The set of laws and regulations that govern economic activities within a country.</label><br>
+
+							<input type="radio" id="economicSystem4" name="economicSystem_quiz" value="4">
+							<label for="economicSystem4">D. The international framework of trade and financial rules and institutions that govern global economic relations.</label><br>
+						</div>
+						<button onclick="checkEconomicSystemAnswer()">Submit Answer</button>
+						<p id="economicSystem_feedback"></p>
+					</section>
+
+					<script>
+					function checkEconomicSystemAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="economicSystem_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("economicSystem_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Well done.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Market Economy -->
+					<section>
+						<p>What describes best a <em>market economy</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="marketEconomy1" name="marketEconomy_quiz" value="1">
+							<label for="marketEconomy1">A. An economic system where the government makes all decisions regarding production and pricing of goods and services.</label><br>
+
+							<input type="radio" id="marketEconomy2" name="marketEconomy_quiz" value="2">
+							<label for="marketEconomy2">B. An economic system based on customs, traditions, and beliefs of the community.</label><br>
+
+							<input type="radio" id="marketEconomy3" name="marketEconomy_quiz" value="3">
+							<label for="marketEconomy3">C. An economic system where supply and demand determine the production and pricing of goods and services.</label><br>
+
+							<input type="radio" id="marketEconomy4" name="marketEconomy_quiz" value="4">
+							<label for="marketEconomy4">D. An economic system characterized by heavy regulation and control by the state, with minimal private enterprise.</label><br>
+						</div>
+						<button onclick="checkMarketEconomyAnswer()">Submit Answer</button>
+						<p id="marketEconomy_feedback"></p>
+					</section>
+
+					<script>
+					function checkMarketEconomyAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="marketEconomy_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("marketEconomy_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! A market economy is driven by the forces of supply and demand.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+
+					<!-- Multiple Choice Questions : Mixed Economy -->
+					<section>
+						<p>What describes best a <em>mixed economy</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="mixedEconomy1" name="mixedEconomy_quiz" value="1">
+							<label for="mixedEconomy1">A. An economic system where the government makes all decisions regarding production and pricing of goods and services.</label><br>
+
+							<input type="radio" id="mixedEconomy2" name="mixedEconomy_quiz" value="2">
+							<label for="mixedEconomy2">B. An economic system based solely on the principles of free market and private ownership.</label><br>
+
+							<input type="radio" id="mixedEconomy3" name="mixedEconomy_quiz" value="3">
+							<label for="mixedEconomy3">C. An economic system that combines elements of both capitalism and socialism, featuring a mix of private and state ownership or control.</label><br>
+
+							<input type="radio" id="mixedEconomy4" name="mixedEconomy_quiz" value="4">
+							<label for="mixedEconomy4">D. An economic system based on customs, traditions, and beliefs of the community.</label><br>
+						</div>
+						<button onclick="checkMixedEconomyAnswer()">Submit Answer</button>
+						<p id="mixedEconomy_feedback"></p>
+					</section>
+
+					<script>
+					function checkMixedEconomyAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="mixedEconomy_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("mixedEconomy_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! A mixed economy incorporates elements of both private enterprise and government control.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+					
+
+					<!-- Multiple Choice Questions : Planned Economy -->
+					<section>
+						<p>What describes best a <em>planned economy</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="plannedEconomy1" name="plannedEconomy_quiz" value="1">
+							<label for="plannedEconomy1">A. An economic system where the government makes all decisions regarding production, pricing, and distribution of goods and services.</label><br>
+
+							<input type="radio" id="plannedEconomy2" name="plannedEconomy_quiz" value="2">
+							<label for="plannedEconomy2">B. An economic system that combines elements of both capitalism and socialism, featuring a mix of private and state ownership or control.</label><br>
+
+							<input type="radio" id="plannedEconomy3" name="plannedEconomy_quiz" value="3">
+							<label for="plannedEconomy3">C. An economic system where supply and demand determine the production and pricing of goods and services.</label><br>
+
+							<input type="radio" id="plannedEconomy4" name="plannedEconomy_quiz" value="4">
+							<label for="plannedEconomy4">D. An economic system based on customs, traditions, and beliefs of the community.</label><br>
+						</div>
+						<button onclick="checkPlannedEconomyAnswer()">Submit Answer</button>
+						<p id="plannedEconomy_feedback"></p>
+					</section>
+
+					<script>
+					function checkPlannedEconomyAnswer() {
+						var correctAnswer = "1"; // Option A is the correct answer
+						var selectedOption = document.querySelector('input[name="plannedEconomy_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("plannedEconomy_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! In a planned economy, the government controls and directs production, pricing, and distribution of goods and services.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+
+					<!-- Multiple Choice Questions : Private Sector -->
+					<section>
+						<p>What best describes the <em>private sector</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="privateSector1" name="privateSector_quiz" value="1">
+							<label for="privateSector1">A. The part of the economy owned and controlled by the government and public authorities.</label><br>
+
+							<input type="radio" id="privateSector2" name="privateSector_quiz" value="2">
+							<label for="privateSector2">B. The part of the economy operated by private individuals or companies, usually as a means of profit.</label><br>
+
+							<input type="radio" id="privateSector3" name="privateSector_quiz" value="3">
+							<label for="privateSector3">C. Organizations and entities that are neither part of the private nor the public sector, such as non-profits and charities.</label><br>
+
+							<input type="radio" id="privateSector4" name="privateSector_quiz" value="4">
+							<label for="privateSector4">D. International organizations that govern economic relations between countries.</label><br>
+						</div>
+						<button onclick="checkPrivateSectorAnswer()">Submit Answer</button>
+						<p id="privateSector_feedback"></p>
+					</section>
+
+					<script>
+					function checkPrivateSectorAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="privateSector_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("privateSector_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! The private sector consists of private individuals or companies, focusing on profit-making activities.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Public Sector -->
+					<section>
+						<p>What best describes the <em>public sector</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="publicSector1" name="publicSector_quiz" value="1">
+							<label for="publicSector1">A. The part of the economy operated by private individuals or companies, usually as a means of profit.</label><br>
+
+							<input type="radio" id="publicSector2" name="publicSector_quiz" value="2">
+							<label for="publicSector2">B. The part of the economy owned and controlled by the government and public authorities.</label><br>
+
+							<input type="radio" id="publicSector3" name="publicSector_quiz" value="3">
+							<label for="publicSector3">C. Organizations and entities that are neither part of the private nor the public sector, such as non-profits and charities.</label><br>
+
+							<input type="radio" id="publicSector4" name="publicSector_quiz" value="4">
+							<label for="publicSector4">D. International organizations that govern economic relations between countries.</label><br>
+						</div>
+						<button onclick="checkPublicSectorAnswer()">Submit Answer</button>
+						<p id="publicSector_feedback"></p>
+					</section>
+
+					<script>
+					function checkPublicSectorAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="publicSector_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("publicSector_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! The public sector refers to the part of the economy owned and controlled by the government and public authorities.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+
+				</section>
+
 
 				<!-- Chapter 14: Market failure -->
 				<section>
@@ -2405,6 +2639,211 @@
 							<li>taxation</li>													
 						</ul>
 					</section>
+
+					<section data-background="#dddddd">
+						<h4>Chapter 15: Mixed economic system</h4>
+						<ul>
+							<li> mixed economic system </li>
+							<li> rationing </li>
+							<li> lottery </li>
+							<li> nationalisation </li>
+							<li> public corporation </li>
+							<li> cost benefit analysis (CBA) </li>
+							<li> multinational companies (MNCs) </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> student activity </h4>
+						<ol>
+							<li> a mixed economy (p.112) </li>
+							<li> maximum and minimum prices (p.113) </li>
+							<li> subsidies and indirect taxes (p.114-115) </li>
+							<li> competition policy (p.115-116) </li>
+							<li> environmental policies (p.116) </li>
+							<li> regulation (p.116) </li>
+							<li> nationalisation and privatisation (p.117-118)</li>
+							<li> direct provision (p.118)</li>
+							<li> unfairness (p.119)</li>
+							<li> effectiveness (p.119-120)</li>
+						</ol>
+					</section>
+
+
+					<section data-background="#dddddd">
+						<h4> mixed economic system </h4>
+						<ul>
+							<li> an economy in which ...  </li>
+							<li> ... both the private and public sectors ...  </li>
+							<li> ... play an important role.  </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> rationing </h4>
+						<ul>
+							<li> a limit on the amount ...  </li>
+							<li> ... that can be consumed.  </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> lottery </h4>
+						<ul>
+							<li> the drawing of tickets ...  </li>
+							<li> ... to decide who will get ...  </li>
+							<li> ... the products.  </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> nationalisation </h4>
+						<ul>
+							<li> moving the ownership and control ...  </li>
+							<li> ... of an industry ...  </li>
+							<li> ... from the private sector ...  </li>
+							<li> ... to the government.  </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> public corporation </h4>
+						<ul>
+							<li> a business organisation ...  </li>
+							<li> ... owned by the government ...  </li>
+							<li> ... which is designed to act ...  </li>
+							<li> ... in the public interest  </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> cost benefit analysis (CBA) </h4>
+						<ul>
+							<li> a method of assessing ...  </li>
+							<li> ... investment projects ...  </li>
+							<li> ... which takes into account ...  </li>
+							<li> ... social costs and benefits  </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> multinational companies (MNCs) </h4>
+						<ul>
+							<li> companies which produce ...  </li>
+							<li> ... in more than one country  </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> benefits of a <em>mixed economic system</em> </h4>
+						<ul>
+							<li> all costs and benefits of a decision...  <br> ... are considered by the government  </li>
+							<li> consumption of products that are benficial ... <br> ... can be encouraged by government  </li>
+							<li> firms exploiting consumers through high prices <br> ... can be prevented by government  </li>
+							<li> vulnerable groups can be helped by the government  </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> maximum and minimum prices </h4>
+						<ul>
+							<li> government may impose <em>price controls</em>  </li>
+							<ul>
+								<li>maximum ceiling on price <br> (e.g. basic needs)</li>
+								<li>minimum price or price floor <br> (e.g. minimum wage)</li>
+							</ul>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> measures to adress market failure: subsidy & tax </h4>
+						<ul>
+							<li> government may subsidise firms  </li>
+							<li> government may tax firms  </li>
+							<ul>
+								<li> firm's willingness to invest $\downarrow$ </li>
+								<li> firm's cost of production $\uparrow$</li>
+							</ul>
+							<li> effect of taxes and subsidies depends on PED and PES  </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> measures to adress market failure: competition policy </h4>
+						<ul>
+							<li> promote competition  </li>
+							<li> prevent firms abusing market power  </li>
+							<li> remove barriers to entry and exit into markets  </li>
+							<li> avoid <em>predatory pricing</em> and <em>limit pricing</em></li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> measures to adress market failure: environmental policies </h4>
+						<ul>
+							<li> reduce amount of pollutants emitted by firms <br> $\longrightarrow$ issuing permits to pollute  </li>
+							<li> increase costs of polluting firms  </li>
+							<li> reduce costs of clean firms </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> measures to adress market failure: regulation </h4>
+						<ul>
+							<li> rules and laws to put restrictions on firm's activities  </li>
+							<li> regulations are backed up by law  </li>
+							<li> problems with regulations </li>
+							<ul>
+								<li>government has to check $\longrightarrow$ costs $\uparrow$</li>
+								<li>people have to agree with it</li>
+								<li>reduces market flexibility</li>
+								<li>creates barriers to entry</li>
+							</ul>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> measures to adress market failure: nationalisation & privatisation </h4>
+						<ul>
+							<li> nationalise a private sector industry </li>
+							<li> privatise state-owned enterprises </li>
+							<li> advantages and disadvantages of state-owned enterprises </li>
+							<li> issues with privatisation </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> measures to adress market failure: direct provision </h4>
+						<ul>
+							<li> goods & services that are esssential : <br> education, healthcare, ... $\longrightarrow$ merit goods </li>
+							<li> firms may have no incentive to produce the good </li>
+							<li> governments : </li>
+							<ul>
+								<li> pay firms to produce them (through subsidies) </li>
+								<li> finance it through taxes</li>
+							</ul>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> measures to adress market failure: unfairness </h4>
+						<ul>
+							<li> intervention to restore equity and fairness </li>
+							<li> guarantee that everyone has access to basic needs </li>
+							<li> avoid social division </li>
+						</ul>
+					</section>
+
+					<section data-background="#dddddd">
+						<h4> effectiveness of government intervention </h4>
+						<ul>
+							<li> reduce market failure </li>
+							<li> risk of overestimating the extent of private benefits </li>
+							<li> time lag of decision making </li>
+							<li> may reduce economic efficiency</li>
+						</ul>
+					</section>
+
 
 				</section>
 				
