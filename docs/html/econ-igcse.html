@@ -4979,7 +4979,350 @@
 
 				</section>
 
+				<!-- Chapter 1-14: MCQ -->
+				<section>
+					
+					<section>
+						<h4>Multiple Choice Questions</h4>
+					</section>
 
+					<!-- Multiple Choice Questions : Employment -->
+					<section>
+						<p>What describes best <em>employment</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="employment1" name="employment_quiz" value="1">
+							<label for="employment1">A. The total number of people who are actively looking for work.</label><br>
+
+							<input type="radio" id="employment2" name="employment_quiz" value="2">
+							<label for="employment2">B. The process by which individuals earn income in return for work.</label><br>
+
+							<input type="radio" id="employment3" name="employment_quiz" value="3">
+							<label for="employment3">C. The total number of people who are working, including both full-time and part-time workers.</label><br>
+
+							<input type="radio" id="employment4" name="employment_quiz" value="4">
+							<label for="employment4">D. The ratio of employed individuals to the total labor force.</label><br>
+						</div>
+						<button onclick="checkEmploymentAnswer()">Submit Answer</button>
+						<p id="employment_feedback" style="font-size: 26px;"></p>
+					</section>
+
+					<script>
+					function checkEmploymentAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="employment_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("employment_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Employment refers to the total number of people who are working, including both full-time and part-time workers.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again. Employment is the condition of having paid work.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Flexible Labour Force -->
+					<section>
+						<p>What describes best a <em>flexible labour force</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="flexibleLabour1" name="flexibleLabour_quiz" value="1">
+							<label for="flexibleLabour1">A. A workforce that primarily consists of full-time, permanent employees.</label><br>
+
+							<input type="radio" id="flexibleLabour2" name="flexibleLabour_quiz" value="2">
+							<label for="flexibleLabour2">B. A workforce characterized by high levels of job security and stability.</label><br>
+
+							<input type="radio" id="flexibleLabour3" name="flexibleLabour_quiz" value="3">
+							<label for="flexibleLabour3">C. A workforce that can quickly adapt to market changes, often including part-time, temporary, or freelance workers.</label><br>
+
+							<input type="radio" id="flexibleLabour4" name="flexibleLabour_quiz" value="4">
+							<label for="flexibleLabour4">D. A workforce that is heavily unionized and operates under strict labor laws.</label><br>
+						</div>
+						<button onclick="checkFlexibleLabourAnswer()">Submit Answer</button>
+						<p id="flexibleLabour_feedback" style="font-size: 26px;"></p>
+					</section>
+
+					<script>
+					function checkFlexibleLabourAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="flexibleLabour_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("flexibleLabour_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! A flexible labour force is adaptable to market changes and often includes part-time, temporary, or freelance workers.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again. A flexible labour force is defined by its adaptability and often includes various types of employment contracts.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Economically Inactive -->
+					<section>
+						<p>What describes best <em>economically inactive</em> individuals in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="economicallyInactive1" name="economicallyInactive_quiz" value="1">
+							<label for="economicallyInactive1">A. Individuals who are employed and currently working in a paid job.</label><br>
+
+							<input type="radio" id="economicallyInactive2" name="economicallyInactive_quiz" value="2">
+							<label for="economicallyInactive2">B. Individuals who are unemployed but actively seeking work and available to start work.</label><br>
+
+							<input type="radio" id="economicallyInactive3" name="economicallyInactive_quiz" value="3">
+							<label for="economicallyInactive3">C. Individuals who are not seeking work nor available to start work, including retirees, students, and homemakers.</label><br>
+
+							<input type="radio" id="economicallyInactive4" name="economicallyInactive_quiz" value="4">
+							<label for="economicallyInactive4">D. Individuals working fewer hours than they would like in their current role.</label><br>
+						</div>
+						<button onclick="checkEconomicallyInactiveAnswer()">Submit Answer</button>
+						<p id="economicallyInactive_feedback" style="font-size: 26px;"></p>
+					</section>
+
+					<script>
+					function checkEconomicallyInactiveAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="economicallyInactive_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("economicallyInactive_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Economically inactive individuals are those not seeking or available for work, such as retirees, students, and homemakers.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again. The term 'economically inactive' refers to individuals not engaged in the labor market.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Claimant Count -->
+					<section>
+						<p>What describes best the term <em>claimant count</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="claimantCount1" name="claimantCount_quiz" value="1">
+							<label for="claimantCount1">A. The total number of individuals in an economy who are employed and earning wages.</label><br>
+
+							<input type="radio" id="claimantCount2" name="claimantCount_quiz" value="2">
+							<label for="claimantCount2">B. The measure of the number of people claiming unemployment-related benefits.</label><br>
+
+							<input type="radio" id="claimantCount3" name="claimantCount_quiz" value="3">
+							<label for="claimantCount3">C. The count of individuals who are actively seeking employment but not currently working.</label><br>
+
+							<input type="radio" id="claimantCount4" name="claimantCount_quiz" value="4">
+							<label for="claimantCount4">D. The census of individuals who are economically inactive and not part of the workforce.</label><br>
+						</div>
+						<button onclick="checkClaimantCountAnswer()">Submit Answer</button>
+						<p id="claimantCount_feedback" style="font-size: 26px;"></p>
+					</section>
+
+					<script>
+					function checkClaimantCountAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="claimantCount_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("claimantCount_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! The claimant count refers to the measure of the number of people claiming unemployment-related benefits.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again. The claimant count specifically measures those claiming benefits due to unemployment.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+
+					<!-- Multiple Choice Questions : Frictional Unemployment -->
+					<section>
+						<p>What describes best <em>frictional unemployment</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="frictionalUnemployment1" name="frictionalUnemployment_quiz" value="1">
+							<label for="frictionalUnemployment1">A. Unemployment caused by a downturn in economic activity or a recession.</label><br>
+
+							<input type="radio" id="frictionalUnemployment2" name="frictionalUnemployment_quiz" value="2">
+							<label for="frictionalUnemployment2">B. Long-term unemployment arising from a mismatch between workers' skills and job requirements.</label><br>
+
+							<input type="radio" id="frictionalUnemployment3" name="frictionalUnemployment_quiz" value="3">
+							<label for="frictionalUnemployment3">C. Unemployment resulting from the normal process of workers changing jobs or entering the workforce.</label><br>
+
+							<input type="radio" id="frictionalUnemployment4" name="frictionalUnemployment_quiz" value="4">
+							<label for="frictionalUnemployment4">D. Unemployment due to seasonal variations in employment in certain industries.</label><br>
+						</div>
+						<button onclick="checkFrictionalUnemploymentAnswer()">Submit Answer</button>
+						<p id="frictionalUnemployment_feedback" style="font-size: 26px;"></p>
+					</section>
+
+					<script>
+					function checkFrictionalUnemploymentAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="frictionalUnemployment_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("frictionalUnemployment_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Frictional unemployment refers to the temporary unemployment experienced by individuals changing jobs or entering the workforce.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again. Frictional unemployment is temporary and occurs during job transitions or workforce entry.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Cyclical Unemployment -->
+					<section>
+						<p>What describes best <em>cyclical unemployment</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="cyclicalUnemployment1" name="cyclicalUnemployment_quiz" value="1">
+							<label for="cyclicalUnemployment1">A. Unemployment caused by the normal process of workers changing jobs or entering the workforce.</label><br>
+
+							<input type="radio" id="cyclicalUnemployment2" name="cyclicalUnemployment_quiz" value="2">
+							<label for="cyclicalUnemployment2">B. Unemployment that occurs due to seasonal variations in specific industries.</label><br>
+
+							<input type="radio" id="cyclicalUnemployment3" name="cyclicalUnemployment_quiz" value="3">
+							<label for="cyclicalUnemployment3">C. Unemployment arising from a downturn in the business cycle or economic activity.</label><br>
+
+							<input type="radio" id="cyclicalUnemployment4" name="cyclicalUnemployment_quiz" value="4">
+							<label for="cyclicalUnemployment4">D. Long-term unemployment due to a mismatch between workers' skills and job requirements.</label><br>
+						</div>
+						<button onclick="checkCyclicalUnemploymentAnswer()">Submit Answer</button>
+						<p id="cyclicalUnemployment_feedback" style="font-size: 26px;"></p>
+					</section>
+
+					<script>
+					function checkCyclicalUnemploymentAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="cyclicalUnemployment_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("cyclicalUnemployment_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Cyclical unemployment is linked to the economic cycle and occurs during periods of economic downturn or recession.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again. Cyclical unemployment is directly related to the health of the economy's business cycle.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+
+					<!-- Multiple Choice Questions : Casual Unemployment -->
+					<section>
+						<p>What describes best <em>casual unemployment</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="casualUnemployment1" name="casualUnemployment_quiz" value="1">
+							<label for="casualUnemployment1">A. Unemployment that occurs due to seasonal variations in specific industries.</label><br>
+
+							<input type="radio" id="casualUnemployment2" name="casualUnemployment_quiz" value="2">
+							<label for="casualUnemployment2">B. Unemployment arising from a downturn in the business cycle or economic activity.</label><br>
+
+							<input type="radio" id="casualUnemployment3" name="casualUnemployment_quiz" value="3">
+							<label for="casualUnemployment3">C. Short-term or temporary unemployment experienced between periods of brief employment.</label><br>
+
+							<input type="radio" id="casualUnemployment4" name="casualUnemployment_quiz" value="4">
+							<label for="casualUnemployment4">D. Long-term unemployment due to a mismatch between workers' skills and job requirements.</label><br>
+						</div>
+						<button onclick="checkCasualUnemploymentAnswer()">Submit Answer</button>
+						<p id="casualUnemployment_feedback" style="font-size: 26px;"></p>
+					</section>
+
+					<script>
+					function checkCasualUnemploymentAnswer() {
+						var correctAnswer = "3"; // Option C is the correct answer
+						var selectedOption = document.querySelector('input[name="casualUnemployment_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("casualUnemployment_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Casual unemployment refers to short-term or temporary unemployment between periods of brief employment, often seen in industries with fluctuating demand.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again. Casual unemployment is characterized by its short-term and intermittent nature.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Regional Unemployment -->
+					<section>
+						<p>What describes best <em>regional unemployment</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="regionalUnemployment1" name="regionalUnemployment_quiz" value="1">
+							<label for="regionalUnemployment1">A. Unemployment that predominantly affects specific age groups or demographics.</label><br>
+
+							<input type="radio" id="regionalUnemployment2" name="regionalUnemployment_quiz" value="2">
+							<label for="regionalUnemployment2">B. Unemployment that occurs when industries prevalent in a region decline, affecting local job markets.</label><br>
+
+							<input type="radio" id="regionalUnemployment3" name="regionalUnemployment_quiz" value="3">
+							<label for="regionalUnemployment3">C. Unemployment caused by seasonal variations in employment in certain regions.</label><br>
+
+							<input type="radio" id="regionalUnemployment4" name="regionalUnemployment_quiz" value="4">
+							<label for="regionalUnemployment4">D. Long-term unemployment resulting from a mismatch between skills and job opportunities in a specific region.</label><br>
+						</div>
+						<button onclick="checkRegionalUnemploymentAnswer()">Submit Answer</button>
+						<p id="regionalUnemployment_feedback" style="font-size: 26px;"></p>
+					</section>
+
+					<script>
+					function checkRegionalUnemploymentAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="regionalUnemployment_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("regionalUnemployment_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Regional unemployment refers to joblessness in specific areas, often due to the decline of industries dominant in those regions.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again. Regional unemployment is closely tied to the economic conditions of specific geographical areas.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+					<!-- Multiple Choice Questions : Unemployment -->
+					<section>
+						<p>What describes best <em>unemployment</em> in economics?</p>
+						<div class="quiz-container" style="font-size: 26px; text-align: left;">
+							<input type="radio" id="unemployment1" name="unemployment_quiz" value="1">
+							<label for="unemployment1">A. The situation where individuals are employed part-time but seeking full-time work.</label><br>
+
+							<input type="radio" id="unemployment2" name="unemployment_quiz" value="2">
+							<label for="unemployment2">B. The condition of being jobless while actively seeking work and being available to start work.</label><br>
+
+							<input type="radio" id="unemployment3" name="unemployment_quiz" value="3">
+							<label for="unemployment3">C. The state of being employed in a job that does not fully utilize one's skills or abilities.</label><br>
+
+							<input type="radio" id="unemployment4" name="unemployment_quiz" value="4">
+							<label for="unemployment4">D. The state of being retired or choosing not to seek employment.</label><br>
+						</div>
+						<button onclick="checkUnemploymentAnswer()">Submit Answer</button>
+						<p id="unemployment_feedback" style="font-size: 26px;"></p>
+					</section>
+
+					<script>
+					function checkUnemploymentAnswer() {
+						var correctAnswer = "2"; // Option B is the correct answer
+						var selectedOption = document.querySelector('input[name="unemployment_quiz"]:checked')?.value;
+						var feedbackText = document.getElementById("unemployment_feedback");
+
+						if (selectedOption === correctAnswer) {
+							feedbackText.innerHTML = "Correct! Unemployment refers to being jobless while actively seeking work and being available to start work.";
+						} else if (selectedOption) {
+							feedbackText.innerHTML = "Incorrect. Please try again. Unemployment is defined by actively seeking and being available for work, without currently being employed.";
+						} else {
+							feedbackText.innerHTML = "Please select an option.";
+						}
+					}
+					</script>
+
+
+
+				</section>
 
 			</div>
 
