@@ -2,6 +2,51 @@
 
 ## 1. Project overview
 
+![structured writing](docs/media/svg/Structured_Writing_0.svg)
+
+### 1.1. Structure of Slides
+
+```mermaid
+graph LR;
+    A[subject-level.html] -->A1[textbook summary]
+    A --> A2[mcq for revision]
+    A --> A3[data response question]
+    A --> A4[four-part question]
+
+    A3 --> A31[identify ...]
+    A3 --> A32[calculate ...]
+    A3 --> A33[explain ...]
+    A3 --> A34[analyse ...]
+    A3 --> A35[discuss ...]
+
+    A4 --> A41[define ...]
+    A4 --> A42[identify ...]
+    A4 --> A43[explain ...]
+    A4 --> A44[analyse ...]
+    A4 --> A45[discuss ...]
+
+    style A31 fill:#009933
+    style A32 fill:#009933
+    style A33 fill:#009933
+
+    style A34 fill:#0000FF
+
+    style A35 fill:#CC8400
+
+    style A41 fill:#009933
+    style A42 fill:#009933
+    style A43 fill:#009933    
+
+    style A44 fill:#0000FF
+
+    style A45 fill:#CC8400    
+```
+
+**Note**: The knowledge and understanding questions (green boxes) will guide the learner which *theoretical* concepts he/she should use in the analysis (blue box) and evaluation (orange box). 
+
+
+### 1.2. Groupe de travail EcoPo ESC 3DG-1DG
+
 ```mermaid
 graph LR;
     A[sciences-economiques.html] -->A1[markdown/economie-politique.md]
