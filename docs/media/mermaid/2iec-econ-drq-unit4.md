@@ -1,5 +1,7 @@
 # 2iec econ
 
+<img src="../svg/Structured_Writing_0.svg" alt="structured writing">
+
 ## Data response questions
 
 ### The challenges facing Japan 

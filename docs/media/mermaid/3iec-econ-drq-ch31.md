@@ -1,5 +1,7 @@
 # 3iec econ
 
+<img src="../svg/Structured_Writing_0.svg" alt="structured writing">
+
 ## Data response questions
 
 ### *The Bazilian government seeks to reform the economy* and *The Greek economy* 
