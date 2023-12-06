@@ -111,6 +111,27 @@ graph TD;
     C2 --- C23[high investment]
     C23 -- may avoid --> C231[cost-push <br> inflation]
 
+    style B fill:#009933
+    style B1 fill:#009933    
+    style B2 fill:#009933
+
+    style C fill:#0000FF
+    style C1 fill:#0000FF
+    style C11 fill:#0000FF
+    style C111 fill:#0000FF
+    style C112 fill:#0000FF
+    style C11a fill:#0000FF 
+    style C11b fill:#0000FF      
+    style C12 fill:#0000FF          
+    style C121 fill:#0000FF              
+    style C2 fill:#0000FF        
+    style C21 fill:#0000FF
+    style C21a fill:#0000FF
+    style C22 fill:#0000FF
+    style C221 fill:#0000FF
+    style C222 fill:#0000FF
+    style C23 fill:#0000FF 
+    style C231 fill:#0000FF                       
 ```
 
 
@@ -128,6 +149,14 @@ graph LR;
 
     A --> A2[expectation <br> of low inflation]
     A2 -- caused by --> A21[long history of <br> low inflation]
+
+    style A fill:#CC8400
+
+    style A1 fill:#CC8400 
+    style A1a fill:#CC8400 
+
+    style A2 fill:#CC8400
+    style A21 fill:#CC8400     
 ```
 
 
