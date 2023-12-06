@@ -25,11 +25,11 @@ graph LR;
     style A32 fill:#009933
     style A33 fill:#009933
 
-    style A34 fill:#0000FF
+    style A34 fill:#1A1AFF
 
     style A35 fill:#CC8400
 
-    style A43 fill:#0000FF    
+    style A43 fill:#1A1AFF    
 
     style A45 fill:#CC8400    
 ```
@@ -64,11 +64,11 @@ graph TD;
     style B2 fill:#009933 
     style B3 fill:#009933       
 
-    style C fill:#0000FF   
-    style D1 fill:#0000FF  
-    style D2 fill:#0000FF  
-    style D3 fill:#0000FF     
-    style D4 fill:#0000FF  
+    style C fill:#1A1AFF   
+    style D1 fill:#1A1AFF  
+    style D2 fill:#1A1AFF  
+    style D3 fill:#1A1AFF     
+    style D4 fill:#1A1AFF  
 
     style E fill:#CC8400 
     style F1 fill:#CC8400 
@@ -117,23 +117,23 @@ graph TD;
     style B1 fill:#009933    
     style B2 fill:#009933
 
-    style C fill:#0000FF
-    style C1 fill:#0000FF
-    style C11 fill:#0000FF
-    style C111 fill:#0000FF
-    style C112 fill:#0000FF
-    style C11a fill:#0000FF 
-    style C11b fill:#0000FF      
-    style C12 fill:#0000FF          
-    style C121 fill:#0000FF              
-    style C2 fill:#0000FF        
-    style C21 fill:#0000FF
-    style C21a fill:#0000FF
-    style C22 fill:#0000FF
-    style C221 fill:#0000FF
-    style C222 fill:#0000FF
-    style C23 fill:#0000FF 
-    style C231 fill:#0000FF                       
+    style C fill:#1A1AFF
+    style C1 fill:#1A1AFF
+    style C11 fill:#1A1AFF
+    style C111 fill:#1A1AFF
+    style C112 fill:#1A1AFF
+    style C11a fill:#1A1AFF 
+    style C11b fill:#1A1AFF      
+    style C12 fill:#1A1AFF          
+    style C121 fill:#1A1AFF              
+    style C2 fill:#1A1AFF        
+    style C21 fill:#1A1AFF
+    style C21a fill:#1A1AFF
+    style C22 fill:#1A1AFF
+    style C221 fill:#1A1AFF
+    style C222 fill:#1A1AFF
+    style C23 fill:#1A1AFF 
+    style C231 fill:#1A1AFF                       
 ```
 
 
@@ -187,7 +187,7 @@ graph LR;
     style A32 fill:#009933
     style A33 fill:#009933
 
-    style A34 fill:#0000FF
+    style A34 fill:#1A1AFF
 
     style A35 fill:#CC8400
 
@@ -195,7 +195,7 @@ graph LR;
     style A42 fill:#009933
     style A43 fill:#009933    
 
-    style A44 fill:#0000FF
+    style A44 fill:#1A1AFF
 
     style A45 fill:#CC8400    
 ```

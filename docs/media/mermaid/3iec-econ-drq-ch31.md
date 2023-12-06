@@ -39,10 +39,10 @@ graph LR;
     style A332 fill:#009933
     style A333 fill:#009933
 
-    style A34 fill:#0000FF
+    style A34 fill:#1A1AFF
 
-    style A341 fill:#0000FF
-    style A342 fill:#0000FF
+    style A341 fill:#1A1AFF
+    style A342 fill:#1A1AFF
 
     style A35 fill:#CC8400
 
@@ -52,7 +52,7 @@ graph LR;
     style A41 fill:#009933
     style A43 fill:#009933    
 
-    style A44 fill:#0000FF
+    style A44 fill:#1A1AFF
 
     style A45 fill:#CC8400    
 ```
@@ -186,7 +186,7 @@ graph LR;
     style A32 fill:#009933
     style A33 fill:#009933
 
-    style A34 fill:#0000FF
+    style A34 fill:#1A1AFF
 
     style A35 fill:#CC8400
 
@@ -194,7 +194,7 @@ graph LR;
     style A42 fill:#009933
     style A43 fill:#009933    
 
-    style A44 fill:#0000FF
+    style A44 fill:#1A1AFF
 
     style A45 fill:#CC8400    
 ```
