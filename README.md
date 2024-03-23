@@ -158,5 +158,13 @@ Then in the `<body>`, include TikZ code such as
 - [OECD Data](https://data.oecd.org/)
 - [eurostat Database](https://ec.europa.eu/eurostat/data/database)
 - [LUSTAT (Statec)](https://lustat.statec.lu/)
+- [Observatoire de l'habitat (Luxembourg)](https://logement.public.lu/fr/observatoire-habitat.html)
+- [European Central Bank Data Portal](https://data.ecb.europa.eu/)
+- [World Bank Open Data](https://data.worldbank.org/)
+- [International Monetary Fund Data](https://www.imf.org/en/Data)
+- [Federal Reserve Economic Data](https://fred.stlouisfed.org/)
+- [United Nations Data](http://data.un.org/)
+- [World health Organization Data Collection](https://www.who.int/data/collections)
 - [Natural History Museum Data Portal](https://data.nhm.ac.uk/)
+- [Fichier des prénoms (INSEE)](https://www.insee.fr/fr/statistiques/7633685)
 
