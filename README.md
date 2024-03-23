@@ -83,7 +83,15 @@ graph LR;
 
 [MathJax](https://www.mathjax.org/) is supported by reveal.js and allows to include maths into the presentation.
 
-## 3. Tips
+### 2.4. D3.js
+
+[D3.js](https://d3js.org/) is a JavaScript library made for data visualization.
+
+### 2.5. blender
+
+[blender](https://www.blender.org/) is used for video editing and for the creation of animations.
+
+## 3. Frequently used code
 
 ### 3.1. Controlling the the size
 
@@ -93,8 +101,29 @@ graph LR;
 </div>
 ```
 
+### 3.2. Including a figure with caption
 
-### 3.2. Using TikZJax
+```html
+<figure>
+  <img src="https://imagesource.org/figure.png" alt="label here" style="width:60%">
+  <figcaption> <font size="5"> Caption Text Here. </font> </figcaption>
+</figure>
+```
+
+### 3.3. Controlling the slide background
+
+```html
+<section data-background="#dddddd">
+  <h3> title of unit </h3>
+  <ol type="1">
+    <li> item 1 </li>
+    <li> item 2 </li>
+    <li> item 3 </li>	
+    </ol>
+</section>
+```
+
+### 3.4. Using TikZJax
 
 [TikZJax](https://tikzjax.com/)
 
