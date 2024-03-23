@@ -124,9 +124,13 @@ graph LR;
 ```
 
 
+### 3.4. Using hyperlinks
 
+```html
+<a href="https://www.ocaktan.org/"> Your text here </a>
+```
 
-### 3.4. Using TikZJax
+### 3.5. Using TikZJax
 
 [TikZJax](https://tikzjax.com/)
 
@@ -145,7 +149,14 @@ Then in the `<body>`, include TikZ code such as
     \draw (0,0) circle (1in);
   \end{tikzpicture}
 </script>
-````
+```
 
 
+## 4. Economic and social data sources
+
+- [<b>Our World in Data</b>: Data visualization on poverty, disease, hunger, climate change, war, existential risks, and inequality](https://ourworldindata.org/) 
+- [OECD Data](https://data.oecd.org/)
+- [eurostat Database](https://ec.europa.eu/eurostat/data/database)
+- [LUSTAT (Statec)](https://lustat.statec.lu/)
+- [Natural History Museum Data Portal](https://data.nhm.ac.uk/)
 
