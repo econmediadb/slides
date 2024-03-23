@@ -93,7 +93,7 @@ graph LR;
 
 ## 3. Frequently used code
 
-### 3.1. Controlling the the size
+### 3.1. Controlling the the size of equations
 
 ```html
 <div style="font-size: 133%;">
@@ -123,7 +123,10 @@ graph LR;
 </section>
 ```
 
-### 3.4. Using TikZJax
+
+
+
+### 3.4. Using TikZJax
 
 [TikZJax](https://tikzjax.com/)
 
