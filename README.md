@@ -151,6 +151,28 @@ Then in the `<body>`, include TikZ code such as
 </script>
 ```
 
+### 3.6. Opening a pdf at a specific page
+
+We can use the following html code to create a link to a pdf document that opens ata specific page :
+
+```html
+<a href="https://website.com/files/document.pdf#page=11">document description</a>
+```
+
+Unfortunatly, there seems to be an inconsistency on how this link is interpreted whether you are on a Desktop (no matter which OS) or on a tablet (iOS or Android). This can be solved by using the following javascript code, that has to be placed in a folder that is accessible by the reveal.js file.
+
+```js
+document.addEventListener('DOMContentLoaded', function() {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) || (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.platform)) || (navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform))) {
+    document.querySelectorAll('[href*=pdf]').forEach(e => {
+    if (e.href.indexOf('page=') > -1) {
+    e.href = e.href.replace('page=', 'page');
+    }
+    });
+    }
+    });
+```
+
 
 ## 4. Economic and social data sources
 
