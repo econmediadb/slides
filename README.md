@@ -192,3 +192,10 @@ For more information read [this](https://element.how/web-link-to-specific-pdf-pa
 - [Natural History Museum Data Portal](https://data.nhm.ac.uk/)
 - [Fichier des prénoms (INSEE)](https://www.insee.fr/fr/statistiques/7633685)
 
+
+## 5. Templates
+
+### 5.1. svg file for structured writing
+
+![structured writing](docs/media/svg/TEMPLATE-structured-writing.svg)
+
