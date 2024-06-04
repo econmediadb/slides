@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<!-- TikZJax -->
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+	
+
+	<!-- Tarik Ocaktan + Luxembourg + June 2023 -->
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Connect - Unite - Discover</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/night.css" id="theme">
+	</head>
+
+	<!-- These slides use MathJax -->
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+
+				<section data-background="#dddddd">
+					<h3>Discover</h3>
+					<p><a href="https://www.visitluxembourg.com/tour/nature-trail-kautenbach">Nature Trail Kautenbach</a></p>
+					<img src="https://www.visitluxembourg.com/images/A132t-Hua6c/rs:fill:1600:900/dpr:1.5/cb:/g:ce/aHR0cHM6Ly9pbWcub2FzdGF0aWMuY29tL2ltZ3NyYy85MjIwMDQwOC8uanBn" alt="Girl on the Trail" style="height:300px;"> 
+				</section>
+
+
+
+
+				<!-- Overview of trip -->
+				<section data-background="#dddddd">
+					<h3>Overview</h3>
+					<ul>
+						<li> <b>Meeting point</b> : Gare Luxembourg <br> (Train to Kautenbach) </li>
+						<li> <b>Starting point</b> : Kautenbach </li>
+						<li> <b>Destination</b> : Kautenbach </li>
+						<li> <b>Distance</b> : 6.55 km </li>
+					</ul>
+				</section>
+
+				<section data-background="#dddddd">
+					<h3>Overview</h3>
+					<ul>
+						<li> <b>Duration</b> </li>
+						<ul>
+							<li> train trip (Luxemb.-Kautenbach) : 1:00 h </li>
+							<li> trail : 2:10 h </li>
+							<li> train trip (Kautenbach-Luxemb.) : 1:00 h </li>
+						</ul>
+						<li> <b>Difficulty</b> : medium </li>
+						<li> <b>Equipment</b> : Sturdy shoes, water and snack </li>
+						<li> <a href="https://www.visitluxembourg.com/gpxproxy.php?url=https://www.visitluxembourg.com//fileadmin/gpx/nature-trail-kautenbach.gpx&filename=nature-trail-kautenbach">GPX file</a> </li>
+					</ul>
+				</section>				
+
+				<section data-background="#dddddd">
+					<iframe src="https://www.komoot.com/de-de/tour/173658906/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+				</section>		
+
+
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+		<script src="../plugin/math/math.js"></script>
+		<script>
+			Reveal.initialize({
+				history: true,
+				transition: 'linear',
+
+				mathjax2: {
+					config: 'TeX-AMS_HTML-full',
+					TeX: {
+						Macros: {
+							R: '\\mathbb{R}',
+							set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+						}
+					}
+				},
+
+				// There are three typesetters available
+				// RevealMath.MathJax2 (default)
+				// RevealMath.MathJax3
+				// RevealMath.KaTeX
+				//
+				// More info at https://revealjs.com/math/
+				plugins: [ RevealMath.MathJax2 ]
+			});
+		</script>
+
+	</body>
+</html>
