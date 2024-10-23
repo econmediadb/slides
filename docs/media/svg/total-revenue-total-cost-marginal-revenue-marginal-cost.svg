@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1280"
+   height="720"
+   viewBox="0 0 1280.0001 720.00001"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="total-revenue-total-cost-marginal-revenue-marginal-cost.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="px"
+     showgrid="true"
+     units="px"
+     inkscape:zoom="0.93105132"
+     inkscape:cx="520.91651"
+     inkscape:cy="266.90258"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1"
+     borderlayer="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid507"
+       dotted="true"
+       color="#0099e5"
+       opacity="0.10196078"
+       empcolor="#0099e5"
+       empopacity="0.10196078"
+       empspacing="1"
+       originx="0"
+       originy="0"
+       spacingx="8.0000004"
+       spacingy="8.0000004"
+       snapvisiblegridlinesonly="true"
+       visible="true"
+       units="px" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path4" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Template"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1"
+       x="999.9588"
+       y="162.89612"
+       id="text478-6-3-3"
+       inkscape:label="ClassName"><tspan
+         x="999.9588"
+         y="162.89612"
+         style="font-weight:bold;font-size:26.6667px;text-align:center;baseline-shift:baseline;text-anchor:middle;fill:#008000;fill-opacity:1"
+         sodipodi:role="line"
+         id="tspan1-56">Total Cost</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1"
+       x="1010.405"
+       y="360.41904"
+       id="text478-6-3-3-2"
+       inkscape:label="ClassName"><tspan
+         x="1010.405"
+         y="360.41904"
+         style="font-weight:bold;font-size:26.6667px;text-align:center;baseline-shift:baseline;text-anchor:middle;fill:#ff0000;fill-opacity:1"
+         sodipodi:role="line"
+         id="tspan1-56-9">Total Revenue</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       x="1014.449"
+       y="632.10956"
+       id="text478-6-9"
+       inkscape:label="ClassName"><tspan
+         id="tspan476-1-1"
+         x="1014.449"
+         y="632.10956"
+         style="font-weight:bold;font-size:26.6667px;text-align:center;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1"
+         sodipodi:role="line">output</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       x="177.32669"
+       y="132.65742"
+       id="text478-6-9-0"
+       inkscape:label="ClassName"><tspan
+         id="tspan476-1-1-6"
+         x="177.32669"
+         y="132.65742"
+         style="font-weight:bold;font-size:26.6667px;text-align:center;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1"
+         sodipodi:role="line">total cost</tspan><tspan
+         x="177.32669"
+         y="159.32413"
+         style="font-weight:bold;font-size:26.6667px;text-align:center;baseline-shift:baseline;text-anchor:middle;fill:#000000;fill-opacity:1"
+         sodipodi:role="line"
+         id="tspan9">total revenue</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0;stroke:#0000ff;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+       d="M 373.95127,-156.8946 1034.7372,41.583371"
+       id="path1" />
+    <path
+       style="fill:none;fill-opacity:0;stroke:#008000;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+       d="M 300.46684,490.69473 C 410.03433,345.57068 838.52503,485.25432 928.31775,170.48707"
+       id="path1-2-7"
+       inkscape:transform-center-x="23.49432"
+       inkscape:transform-center-y="-29.621766"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:0;stroke:#ff0000;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+       d="M 300.09547,585.63856 C 578.50002,290.86167 653.40506,269.55254 917.34566,370.45421"
+       id="path1-2-7-0"
+       inkscape:transform-center-x="-8.9438946"
+       inkscape:transform-center-y="38.640823"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:4, 12;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -45.068594,-102.66662 V 213.92141"
+       id="path7" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:4, 12;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 404.3128,-109.00317 H 114.11449"
+       id="path8-1" />
+    <path
+       style="fill:none;fill-opacity:0;stroke:#010101;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4)"
+       d="m 299.67476,588.47332 709.38364,0.95748"
+       id="path3" />
+    <path
+       style="fill:none;fill-opacity:0;stroke:#010101;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="M 298.05065,590.28824 V 129.68718"
+       id="path5" />
+  </g>
+  <metadata
+     id="metadata2865">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="dsf" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
