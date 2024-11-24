@@ -1,2 +1,6 @@
 Filename, Has People?, Execution Time (minutes)
 Filename, Has People?, Execution Time (minutes)
+Filename, Has People?, Execution Time (minutes)
+nathan-anderson-FHiJWoBodrs-unsplash.jpg, No, 2.54
+ryoji-iwata-X53e51WfjlE-unsplash.jpg, No, 2.81
+Watts_George_Frederick_Portrait_Of_The_Artists_Wife_Mary.jpg, No, 2.78
