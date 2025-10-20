@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="en">
+
+<!-- TikZJax -->
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+	
+
+	<!-- Tarik Ocaktan + Luxembourg + September 2024 -->
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>overview of osc</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/night.css" id="theme">
+	</head>
+
+	
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<!-- <section data-background="#dddddd"> -->
+				<section data-background="">
+					<h3>overview of the topics covered in the open source club</h3>
+					<ul>
+						<li> linux command line and scripting </li>
+						<li> python and jupyter lab</li>
+						<li> webpublishing with html, js, ... </li>
+						<li> linux security </li>
+					</ul>
+				</section>
+
+
+				<!-- Linux Command Line and Scripting -->
+				<section>
+
+					<section data-background="#3636FF">
+						<h4>linux command and scripting</h4>
+						
+					</section>
+
+					<section data-background="#3636FF">
+						<h4>Raspberry Pi OS : A Linux Distribution </h4>
+						<ul>
+							<li> <a href="https://www.raspberrypi.com/documentation/computers/os.html">Raspberry PI OS documentation</a> </li>
+						</ul>
+					</section>
+
+
+
+					<section data-background="#3636FF">
+						<h4> File and Directory Operations Commands </h4>
+
+						<table style="font-size: 24px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> ls </td>
+							<td> list files and directories </td>
+						  </tr>
+						  <tr>
+							<td> cd </td>
+							<td> change directory </td>
+						  </tr>
+						  <tr>
+							<td> pwd </td>
+							<td> print current working directory </td>
+						  </tr>
+						  <tr>
+							<td> mkdir </td>
+							<td> create a new directory </td>
+						  </tr>
+						  <tr>
+							<td> rm </td>
+							<td> remove files and directories </td>
+						  </tr>
+						  <tr>
+							<td> cp </td>
+							<td> copy files and directories </td>
+						  </tr>
+						  <tr>
+							<td> mv </td>
+							<td> move/rename files and directories </td>
+						  </tr>
+						  <tr>
+							<td> touch </td>
+							<td> create an empty file or update file timestamps </td>
+						  </tr>
+						  <tr>
+							<td> cat </td>
+							<td> view the contents of a file </td>
+						  </tr>
+						  <tr>
+							<td> head </td>
+							<td> display the first few lines of a file </td>
+						  </tr>
+						  <tr>
+							<td> tail </td>
+							<td> display the last few lines of a file </td>
+						  </tr>
+						  <tr>
+							<td> ln </td>
+							<td> create links between files </td>
+						  </tr>
+						  <tr>
+							<td> find </td>
+							<td> search for files and directories </td>
+						  </tr>
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#directory" style="font-size: 0.8em;" >source</a>
+
+					</section>
+
+
+
+					<section data-background="#3636FF">
+						<h4> File Permission Commands  </h4>
+
+						<table style="font-size: 24px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> chmod </td>
+							<td> change file permissions </td>
+						  </tr>
+						  <tr>
+						  </tr>
+							<td> chown </td>
+							<td> change file ownership </td>
+						  </tr>
+						  <tr>
+							<td> chgrp </td>
+							<td> change group ownership </td>
+						  </tr>
+						  <tr>
+							<td> umask </td>
+							<td> set default file permissions </td>
+						  </tr>						  
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#permission" style="font-size: 0.8em;" >source</a>
+
+					</section>					
+
+
+					<section data-background="#3636FF">
+						<h4> File Compression and Archiving Commands  </h4>
+
+						<table style="font-size: 24px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> tar </td>
+							<td> Create or extract archive files </td>
+						  </tr>
+						  <tr>
+							<td> gzip </td>
+							<td> Compress files </td>
+						  </tr>
+						  <tr>
+							<td> zip </td>
+							<td> Create compressed zip archives </td>
+						  </tr>	  
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#compression" style="font-size: 0.8em;" >source</a>
+
+					</section>		
+
+
+
+					<section data-background="#3636FF">
+						<h4> Process Management Commands  </h4>
+
+						<table style="font-size: 24px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> ps </td>
+							<td> Display running processes </td>
+						  </tr>
+						  <tr>
+							<td> top </td>
+							<td> Monitor system processes in real-time </td>
+						  </tr>
+						  <tr>
+							<td> kill </td>
+							<td> Terminate a process </td>
+						  </tr>
+						  <tr>
+							<td> pkill </td>
+							<td> Terminate processes based on their name </td>
+						  </tr>
+						  <tr>
+							<td> pgrep </td>
+							<td> List processes based on their name </td>
+						  </tr>
+						  <tr>
+							<td> grep </td>
+							<td> used to search for specific patterns or regular expressions in text files or streams and display matching lines </td>
+						  </tr>
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#management" style="font-size: 0.8em;" >source</a>
+
+					</section>
+
+
+
+					<section data-background="#3636FF">
+						<h4> System Information Commands  </h4>
+
+						<table style="font-size: 24px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> uname </td>
+							<td> Print system information </td>
+						  </tr>
+						  <tr>
+							<td> whoami </td>
+							<td> Display current username </td>
+						  </tr>
+						  <tr>
+							<td> df </td>
+							<td> Show disk space usage </td>
+						  </tr>
+						  <tr>
+							<td> du </td>
+							<td> Estimate file and directory sizes </td>
+						  </tr>
+						  <tr>
+							<td> free </td>
+							<td> Display memory usage information </td>
+						  </tr>
+						  <tr>
+							<td> uptime </td>
+							<td> Show system uptime </td>
+						  </tr>
+						  <tr>
+							<td> lscpu </td>
+							<td> Display CPU information </td>
+						  </tr>
+						  <tr>
+							<td> lspci </td>
+							<td> List PCI devices </td>
+						  </tr>
+						  <tr>
+							<td> lsusb </td>
+							<td> List USB devices </td>
+						  </tr>
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#system" style="font-size: 0.8em;" >source</a>
+
+					</section>
+
+
+
+
+
+					<section data-background="#3636FF">
+						<h4> Networking Commands  </h4>
+
+						<table style="font-size: 24px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> ifconfig </td>
+							<td> Display network interface information </td>
+						  </tr>
+						  <tr>
+							<td> ping </td>
+							<td> Send ICMP echo requests to a host </td>
+						  </tr>
+						  <tr>
+							<td> netstat </td>
+							<td> Display network connections and statistics </td>
+						  </tr>
+						  <tr>
+							<td> ss </td>
+							<td> Display network socket information </td>
+						  </tr>
+						  <tr>
+							<td> ssh </td>
+							<td> Securely connect to a remote server </td>
+						  </tr>
+						  <tr>
+							<td> scp </td>
+							<td> Securely copy files between hosts </td>
+						  </tr>
+						  <tr>
+							<td> wget </td>
+							<td> Download files from the web </td>
+						  </tr>
+						  <tr>
+							<td> curl </td>
+							<td> Transfer data to or from a server </td>
+						  </tr>
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#networking" style="font-size: 0.8em;" >source</a>
+
+					</section>
+
+
+
+
+					<section data-background="#3636FF">
+						<h4> IO Redirection Commands  </h4>
+
+						<table style="font-size: 24px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> cmd < file </td>
+							<td> Input of cmd is taken from file </td>
+						  </tr>
+						  <tr>
+							<td> cmd > file </td>
+							<td> Standard output (stdout) of cmd is redirected to file </td>
+						  </tr>
+						  <tr>
+							<td> cmd 2> file </td>
+							<td> Error output (stderr) of cmd is redirected to file </td>
+						  </tr>
+						  <tr>
+							<td> cmd 2>&1 </td>
+							<td> stderr is redirected to the same place as stdout </td>
+						  </tr>
+						  <tr>
+							<td> cmd1 <(cmd2) </td>
+							<td> Output of cmd2 is used as the input file for cmd1 </td>
+						  </tr>
+						  <tr>
+							<td> cmd > /dev/null </td>
+							<td> Discards the stdout of cmd by sending it to the null device </td>
+						  </tr>
+						  <tr>
+							<td> cmd &> file </td>
+							<td> Every output of cmd is redirected to file </td>
+						  </tr>
+						  <tr>
+							<td> cmd 1>&2 </td>
+							<td> stdout is redirected to the same place as stderr </td>
+						  </tr>
+						  <tr>
+							<td> cmd >> file </td>
+							<td> Appends the stdout of cmd to file </td>
+						  </tr>
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#IO" style="font-size: 0.8em;" >source</a>
+
+					</section>
+
+
+
+					<section data-background="#3636FF">
+						<h4> Environment Variable Commands  </h4>
+
+						<table style="font-size: 20px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> export VARIABLE_NAME=value  </td>
+							<td> Sets the value of an environment variable  </td>
+						  </tr>
+						  <tr>
+							<td> echo $VARIABLE_NAME  </td>
+							<td> Displays the value of a specific environment variable  </td>
+						  </tr>
+						  <tr>
+							<td> env  </td>
+							<td> Lists all environment variables currently set in the system  </td>
+						  </tr>
+						  <tr>
+							<td> unset VARIABLE_NAME  </td>
+							<td> Unsets or removes an environment variable  </td>
+						  </tr>
+						  <tr>
+							<td> export -p  </td>
+							<td> Shows a list of all currently exported environment variables  </td>
+						  </tr>
+						  <tr>
+							<td> env VAR1=value COMMAND  </td>
+							<td> Sets the value of an environment variable for a specific command  </td>
+						  </tr>
+						  <tr>
+							<td> printenv  </td>
+							<td> Displays the values of all environment variables  </td>
+						  </tr>
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#environment" style="font-size: 0.8em;" >source</a>
+
+					</section>
+
+
+
+					<section data-background="#3636FF">
+						<h4> User Management Commands  </h4>
+
+						<table style="font-size: 20px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> who   </td>
+							<td> Show who is currently logged in   </td>
+						  </tr>
+						  <tr>
+							<td> sudo adduser username   </td>
+							<td> Create a new user account on the system with the specified username   </td>
+						  </tr>
+						  <tr>
+							<td> finger  </td>
+							<td> Display information about all the users currently logged into the system, including their usernames, login time, and terminal   </td>
+						  </tr>
+						  <tr>
+							<td> sudo deluser USER GROUPNAME  </td>
+							<td> Remove the specified user from the specified group   </td>
+						  </tr>
+						  <tr>
+							<td> last   </td>
+							<td> Show the recent login history of users   </td>
+						  </tr>
+						  <tr>
+							<td> finger username   </td>
+							<td> Provide information about the specified user, including their username, real name, terminal, idle time, and login time   </td>
+						  </tr>
+						  <tr>
+							<td> sudo userdel -r username   </td>
+							<td> Delete the specified user account from the system, including their home directory and associated files. The -r option ensures the removal of the user’s files   </td>
+						  </tr>
+						  <tr>
+							<td> sudo passwd -l username   </td>
+							<td> Lock the password of the specified user account, preventing the user from logging in   </td>
+						  </tr>
+						  <tr>
+							<td> su - username   </td>
+							<td> Switch to another user account with the user's environment   </td>
+						  </tr>
+						  <tr>
+							<td> sudo usermod -a -G GROUPNAME USERNAME  </td>
+							<td> Add an existing user to the specified group. The user is added to the group without removing them from their current groups   </td>
+						  </tr>
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#user" style="font-size: 0.8em;" >source</a>
+
+					</section>
+
+
+
+					<section data-background="#3636FF">
+						<h4> Shortcuts Commands - Navigation  </h4>
+
+						<table style="font-size: 28px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> Ctrl + A   </td>
+							<td> Move to the beginning of the line   </td>
+						  </tr>
+						  <tr>
+							<td> Ctrl + E   </td>
+							<td> Move to the end of the line   </td>
+						  </tr>
+						  <tr>
+							<td> Ctrl + B   </td>
+							<td> Move back one character   </td>
+						  </tr>
+						  <tr>
+							<td> Ctrl + F   </td>
+							<td> Move forward one character   </td>
+						  </tr>
+						  <tr>
+							<td> Alt + B   </td>
+							<td> Move back one word   </td>
+						  </tr>
+						  <tr>
+							<td> Alt + F  </td>
+							<td> Move forward one word   </td>
+						  </tr>
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#bash" style="font-size: 0.8em;" >source</a>
+
+					</section>
+
+
+					<section data-background="#3636FF">
+						<h4> Shortcuts Commands - Editing  </h4>
+
+						<table style="font-size: 28px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td> Ctrl + U  </td>
+							<td> Cut/delete from the cursor position to the beginning of the line   </td>
+						  </tr>
+						  <tr>
+							<td> Ctrl + K   </td>
+							<td> Cut/delete from the cursor position to the end of the line   </td>
+						  </tr>
+						  <tr>
+							<td> Ctrl + W   </td>
+							<td> Cut/delete the word before the cursor   </td>
+						  </tr>
+						  <tr>
+							<td> Ctrl + Y   </td>
+							<td> Paste the last cut text   </td>
+						  </tr>
+						  <tr>
+							<td> Ctrl + L   </td>
+							<td> Clear the screen   </td>
+						  </tr>
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#bash" style="font-size: 0.8em;" >source</a>
+
+					</section>
+
+
+
+					<section data-background="#3636FF">
+						<h4> Shortcuts Commands - History  </h4>
+
+						<table style="font-size: 28px;">
+						<thead>
+						  <tr>
+							<th>command</th>
+							<th>description</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td>  Ctrl + R  </td>
+							<td>  Search command history (reverse search)  </td>
+						  </tr>
+						  <tr>
+							<td>  Ctrl + G  </td>
+							<td>  Escape from history search mode  </td>
+						  </tr>
+						  <tr>
+							<td>  Ctrl + P  </td>
+							<td>  Go to the previous command in history  </td>
+						  </tr>	
+						  <tr>
+							<td>  Ctrl + N  </td>
+							<td>  Go to the next command in history  </td>
+						  </tr>
+						  <tr>
+							<td>  Ctrl + C  </td>
+							<td>  Terminate the current command  </td>
+						  </tr>						  					  
+						</tbody>
+					  </table>
+					  <a href="https://www.geeksforgeeks.org/linux-commands-cheat-sheet/#bash" style="font-size: 0.8em;" >source</a>
+
+					</section>					
+
+
+
+					<section data-background="#3636FF">
+						<h4> Magazines  </h4>
+						<ul>
+							<li> <a href="https://linuxformat.com/" style="font-size: 0.8em;" >Linux Format </a>   </li>
+							<li> <a href="https://www.linux-magazine.com/" style="font-size: 0.8em;" >Linux Magazine</a>   </li>
+							<li> <a href="https://www.opensourceforu.com/" style="font-size: 0.8em;" >Open Source For You</a>   </li>
+							<li> <a href="https://www.linuxjournal.com/" style="font-size: 0.8em;" >Linux Journal</a>   </li>
+							<li> <a href="https://fullcirclemagazine.org/" style="font-size: 0.8em;" >Full Circle Magazine</a>   </li>
+							<li> <a href="http://pclosmag.com/index.html" style="font-size: 0.8em;" >The PCLinuxOS Magazine</a>   </li>
+							<li>  ... check the electronic resources at your library  </li>
+						</ul>
+
+					</section>
+
+
+
+
+
+				</section>
+
+
+				<!-- Raspberry Pi Sensehat -->
+				<section>
+
+					<section data-background="#465F40">
+						<h4>python and the raspberry pi sensehat </h4>
+						
+					</section>
+
+					<section data-background="#465F40">
+						
+						<iframe src="https://trinket.io/embed/python/7952ce1f1430" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+						<br>
+						<a href="https://blog.trinket.io/virtual-sense-hat/" style="font-size: 0.3em;" >Source: How we built a virtual Sense HAT with the Raspberry Pi Foundation </a>
+
+					</section>
+
+
+					<section data-background="#465F40">
+						<h4> Raspberry Pi Sensehat  </h4>
+						<ul>
+							<li> <a href="https://tarikgit.github.io/coding/using-sensehat.html" style="font-size: 0.8em;" >Using the Raspberry Pi Sense HAT </a> </li>
+						</ul>
+
+					</section>					
+
+
+					<section data-background="#465F40">
+						<h4> Raspberry Pi Sensehat and Python  </h4>
+						<h5> Two lines to add at the beginning of each Python code </h5>
+						
+						<pre><code data-trim data-noescape>
+							from sense_hat import SenseHat
+							sense = SenseHat()
+							  </code></pre>
+
+							  <br>
+							  <a href="https://raspberrytips.com/sense-hat-tutorial-2/" style="font-size: 0.4em;" >Source: Programming the Sense HAT on Raspberry Pi with Python </a>
+
+					</section>							
+
+
+					<section data-background="#465F40">
+						<h4> Raspberry Pi Sensehat and Python  </h4>
+						<h5> Measuring Temperature </h5>
+						
+						<pre><code data-trim data-noescape>
+							from sense_hat import SenseHat
+							sense = SenseHat()
+
+							# Temperature
+							temp = sense.get_temperature()
+							print("Temperature: %s C" % temp)	
+							</code></pre>
+
+							<br>
+							<a href="https://raspberrytips.com/sense-hat-tutorial-2/" style="font-size: 0.4em;" >Source: Programming the Sense HAT on Raspberry Pi with Python </a>							
+
+					</section>		
+
+
+					<section data-background="#465F40">
+						<h4> Raspberry Pi Sensehat and Python  </h4>
+						<h5> Measuring Humidity </h5>
+						
+						<pre><code data-trim data-noescape>
+							from sense_hat import SenseHat
+							sense = SenseHat()
+
+							# Humidity
+							humidity = sense.get_humidity()
+							print("Humidity: %s %%" % humidity)	
+							</code></pre>
+
+							<br>
+							<a href="https://raspberrytips.com/sense-hat-tutorial-2/" style="font-size: 0.4em;" >Source: Programming the Sense HAT on Raspberry Pi with Python </a>	
+
+					</section>
+
+
+
+					<section data-background="#465F40">
+						<h4> Raspberry Pi Sensehat and Python  </h4>
+						<h5> Measuring Pressure </h5>
+						
+						<pre><code data-trim data-noescape>
+							from sense_hat import SenseHat
+							sense = SenseHat()
+
+							# Pressure
+							pressure = sense.get_pressure()
+							print("Pressure: %s Millibars" % pressure)	
+							</code></pre>
+
+
+							<br>
+							<a href="https://raspberrytips.com/sense-hat-tutorial-2/" style="font-size: 0.4em;" >Source: Programming the Sense HAT on Raspberry Pi with Python </a>
+
+					</section>
+
+
+					<section data-background="#465F40">
+						<h4> Raspberry Pi Sensehat and Python  </h4>
+						<h5> More functions are available ... (1) </h5>
+						
+						<ul>
+							<li> <b>sense.get_orientation()</b> : You can also use get_orientation_radians() or get_orientation_degrees() to specify the unit you want. </li>
+							<li> <b>sense.get_compass()</b> : Get the direction of North in degrees (compared to the USB ports direction).
+								360/0° is North, 90 is East, 270 is West and 180 is South. </li>
+						</ul>
+
+
+							<br>
+							<a href="https://raspberrytips.com/sense-hat-tutorial-2/" style="font-size: 0.4em;" >Source: Programming the Sense HAT on Raspberry Pi with Python </a>
+
+					</section>
+
+					<section data-background="#465F40">
+						<h4> Raspberry Pi Sensehat and Python  </h4>
+						<h5> More functions are available ... (2) </h5>
+						
+						<ul>
+							<li> <b>sense.set_imu_config(compass_enabled, gyro_enabled, acc_enabled)</b> : To select which sensor you want to enable </li>	
+						</ul>
+
+
+							<br>
+							<a href="https://raspberrytips.com/sense-hat-tutorial-2/" style="font-size: 0.4em;" >Source: Programming the Sense HAT on Raspberry Pi with Python </a>
+
+					</section>
+
+
+				</section>
+
+
+
+				<!-- Webpublishing -->
+				<section>
+
+					<section data-background="#8F3040">
+						<h4>webpublishing with <br> Hugo Blox and Github Pages</h4>
+						
+					</section>
+
+
+					<section data-background="#8F3040">
+						<h4>Hugo Blox</h4>
+						<ul>
+							<li> all-in-one web framework </li>
+							<li> easy building of websites </li>
+							<li> uses <a href="https://yaml.org/" style="font-size: 1.0em;" > YAML </a>  (<em>YAML Ain't Markup Language</em>) </li>
+							<li> see the <a href="https://docs.hugoblox.com/" style="font-size: 1.0em;" > Hugo Blox Documentation </a>  </li>
+							<li> the code of our <a href="https://ulmlr.github.io/lmlpages/" style="font-size: 1.0em;" > Open Source Club webpage </a> is at <a href="https://github.com/ulmlr/lmlpages" style="font-size: 1.0em;" > github.com/ulmlr/lmlpages </a>  </li>
+						</ul>
+					</section>
+
+
+					<section data-background="#8F3040">
+						<h4>Github Pages</h4>
+						<ul>
+							<li> our Hugo Blox is hosted by Github </li>
+							<li> sign up in Github and create a user  </li>
+							<li> this will allow you to contribute to the project </li>
+						</ul>
+					</section>
+
+
+				</section>
+
+
+
+				
+
+				<!-- Python and Jupyter Lab -->
+				<section>
+
+					<section data-background="#F0E68C">
+						<h4>python and jupyter lab</h4>
+						
+					</section>
+
+
+					<section data-background="#F0E68C">
+						<h4>jupyter lab</h4>
+						<ul>
+							<li> write code in your browser </li>
+							<li> run and see the results immediately </li>
+							<li> try <a href="https://jupyter.org/try" style="font-size: 1.0em;" > jupyter lab </a>  </li>
+						</ul>
+					</section>
+
+
+					<section data-background="#F0E68C">
+						<h4>google colab</h4>
+						<ul>
+							<li> similar to jupyter lab </li>
+							<li> write and run code and see the results immediately </li>
+							<li> try <a href="https://colab.research.google.com/" style="font-size: 1.0em;" > Google Colaboratory </a>  </li>
+						</ul>
+					</section>
+
+					<section data-background="#F0E68C">
+						<h4>kaggle</h4>
+						<ul>
+							<li> find machine learning challenges </li>
+							<li> find useful codes for machine learning </li>
+							<li> datasets, models, code, discussion groups </li>
+							<li> try <a href="https://www.kaggle.com/" style="font-size: 1.0em;" > kaggle </a>  </li>
+						</ul>
+					</section>				
+
+					<section data-background="#F0E68C">
+						<h4>apply these tools for Luxembourg</h4>
+						<ul>
+							<li> understand the economy </li>
+							<li> find data sources </li>
+							<li> try <a href="https://gitlab.com/econmediadb/economics-course/-/blob/main/julia/10-monthly-unemployment-luxembourg.ipynb?ref_type=heads" style="font-size: 1.0em;" > unemployment and public policies in Luxembourg </a>  </li>
+						</ul>
+					</section>									
+					
+					
+				</section>
+
+
+
+				<!-- Webpublishing -->
+				<section>
+
+					<section data-background="#dddddd">
+						<h4>webpublishing (html, js, ...)</h4>
+						
+					</section>
+
+				</section>
+
+
+				<!-- Linux Security -->
+				<section>
+
+					<section data-background="#dddddd">
+						<h4>linux security</h4>
+						<a href="https://github.com/ulmlr/ulmlr/blob/main/markdown/security-linux.md">notes</a>
+					</section>
+
+
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+		<script src="../plugin/math/math.js"></script>
+		<script>
+			Reveal.initialize({
+				history: true,
+				transition: 'linear',
+
+				mathjax2: {
+					config: 'TeX-AMS_HTML-full',
+					TeX: {
+						Macros: {
+							R: '\\mathbb{R}',
+							set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+						}
+					}
+				},
+
+				// There are three typesetters available
+				// RevealMath.MathJax2 (default)
+				// RevealMath.MathJax3
+				// RevealMath.KaTeX
+				//
+				// More info at https://revealjs.com/math/
+				plugins: [ RevealMath.MathJax2 ]
+			});
+		</script>
+		<script src="../plugin/myplugins/openpdfonpage.js"></script>
+
+	</body>
+</html>
